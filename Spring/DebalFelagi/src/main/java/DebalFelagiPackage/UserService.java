@@ -1,4 +1,4 @@
-package ResumeSpringPackage;
+package DebalFelagiPackage;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

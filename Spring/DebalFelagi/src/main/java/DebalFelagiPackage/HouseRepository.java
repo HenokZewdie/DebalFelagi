@@ -1,9 +1,6 @@
-package ResumeSpringPackage;
+package DebalFelagiPackage;
 
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-
-import java.util.List;
 
 /**
  * Created by student on 6/21/17.

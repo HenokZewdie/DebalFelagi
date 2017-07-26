@@ -1,4 +1,4 @@
-package ResumeSpringPackage;
+package DebalFelagiPackage;
 
 import org.springframework.data.repository.CrudRepository;
 

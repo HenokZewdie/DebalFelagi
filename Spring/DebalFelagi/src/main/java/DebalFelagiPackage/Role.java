@@ -1,4 +1,4 @@
-package ResumeSpringPackage;
+package DebalFelagiPackage;
 
 import javax.persistence.*;
 import java.util.Collection;
