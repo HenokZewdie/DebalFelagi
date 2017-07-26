@@ -67,7 +67,7 @@ public class HomeController {
     @RequestMapping(value = "/houseregister", method = RequestMethod.POST)
     public String housePOST(@ModelAttribute("house") House house, Model model, Principal principal){
         house.setDate(new Date());
-        house.setUsername(principal.getName());
+//        house.setUsername(principal.getName());
         houseRepository.save(house);
         return "redirect:/";
     }

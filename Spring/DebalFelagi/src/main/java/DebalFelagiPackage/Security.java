@@ -30,7 +30,7 @@ public class Security extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
 
-                .formLogin().failureUrl("/")
+                .formLogin().failureUrl("/login")
                 .defaultSuccessUrl("/loginSuccess")
                 .loginPage("/login");
 
