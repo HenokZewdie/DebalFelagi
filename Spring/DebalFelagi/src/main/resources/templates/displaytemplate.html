@@ -22,17 +22,17 @@
 
             </tr>
 
-            <div th:each="loopin : ${customerList}">
-                <tr>
+            <tr th:each="loopin : ${customerList}">
+
                     <td th:text = "${loopin.street}"></td>
                     <td th:text = "${loopin.city}"></td>
                     <td th:text = "${loopin.state}"></td>
-                    <td th:text = "${loopin.zipCode}"></td>
+                    <td th:text = "${loopin.zip}"></td>
                     <td th:text = "${loopin.email}"></td>
-                    <td th:text = "${loopin.fullName}"></td>
+                    <td th:text = "${loopin.fullname}"></td>
                     <!--<td th:text = "${#dates.format(mylink.date, 'MMM-dd-yyyy')}"></td>  #dates.format(sprint.releaseDate, 'dd-MMM-yyyy')-->
-                </tr>
-            </div>
+            </tr>
+
         </table>
 
     </div>

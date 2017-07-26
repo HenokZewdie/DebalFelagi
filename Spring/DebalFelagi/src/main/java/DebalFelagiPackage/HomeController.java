@@ -23,6 +23,8 @@ public class HomeController {
     private UserRepository userRepository;
     @Autowired
     private HouseRepository houseRepository;
+    @Autowired
+    private CustomerRepository customerRepository;
 
 
     String emailSession;
@@ -69,7 +71,16 @@ public class HomeController {
         house.setDate(new Date());
 //        house.setUsername(principal.getName());
         houseRepository.save(house);
-        return "redirect:/";
+        return "redirect:/displaytemplate";
+    }
+
+    @RequestMapping(value = "/loginSuccess", method = RequestMethod.GET)
+    public String displayTemp(Model model, Principal principal, User user){
+        model.addAttribute("customer", new Customer());
+        user = userRepository.findByUsername(principal.getName());
+        Iterable<Customer> customerList = customerRepository.findByZip(user.getZipCode());
+        model.addAttribute("customerList", customerList);
+        return "/displaytemplate";
     }
 
     public UserValidator getUserValidator() {
