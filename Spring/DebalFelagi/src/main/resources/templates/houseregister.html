@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html     xmlns="http://www.w3.org/1999/xhtml"
+          xmlns:th="http://www.thymeleaf.org"
+          xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head th:replace="base::Mena">
+    <meta charset="utf-8" />
+    <title>Spring Security Example</title>
+
+</head>
+<body>
+<nav class="navbar navbar-default" th:replace="base::navi"></nav>
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <br /><br /><br />
+            <h4> Registrer Here</h4>
+            <form action="#" th:action="@{/houseregister}" th:object="${house}" method="post">
+
+                <div class="col-xs-4">
+                    <label for="street">Street Address</label>
+                    <input type="text" th:field="*{street}" class="form-control" id="street" placeholder="Street address" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="city">City</label>
+                    <input type="text" th:field="*{city}" class="form-control" id="city" placeholder="City" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="state">State</label>
+                    <input type="text" th:field="*{state}" class="form-control" id="state" placeholder="state" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="zip">ZIP Code</label>
+                    <input type="text" th:field="*{zipCode}" class="form-control" id="zip" placeholder="ZIP Code" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="type">Type</label>
+                    <input type="text" th:field="*{type}" class="form-control" id="type" placeholder="Apt, roommate, Basement" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="bath">Bath</label>
+                    <input type="text" th:field="*{bath}" class="form-control" id="bath" placeholder="Individual, shared" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="kitchen">Kitchen</label>
+                    <input type="text" th:field="*{kitchen}" class="form-control" id="kitchen" placeholder="Kitchen" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="duration">Duration</label>
+                    <input type="text" th:field="*{duration}" class="form-control" id="duration" placeholder="3 month, unlimited" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="price">price</label>
+                    <input type="text" th:field="*{price}" class="form-control" id="price" placeholder="price" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="phone">phone</label>
+                    <input type="text" th:field="*{phone}" class="form-control" id="phone" placeholder="phone is optional" />
+                </div>
+                <div class="col-xs-4">
+                    <label for="remark">Remark</label>
+                    <input type="text" th:field="*{remark}" class="form-control" id="remark" placeholder="Near to supermarket and good for transportation" />
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button></div>
+
+            </form>
+
+        </div><!-- /.container -->
+        <th:block th:replace="base :: footlinks"></th:block>
+    </div></div>
+</body>
+</html>
