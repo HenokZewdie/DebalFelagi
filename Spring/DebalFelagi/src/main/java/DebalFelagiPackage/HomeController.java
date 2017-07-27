@@ -81,9 +81,10 @@ public class HomeController {
     @RequestMapping(value = "/houseregister", method = RequestMethod.POST)
     public String housePOST(@ModelAttribute("house") House house, Model model, Principal principal){
         house.setDate(new Date());
-//        house.setUsername(principal.getName());
+        house.setUsername(principal.getName());
         houseRepository.save(house);
-        return "redirect:/displaytemplate";
+        model.addAttribute(new House());
+        return "redirect:/houseregister";
     }
 
     @RequestMapping(value = "/loginSuccess", method = RequestMethod.GET)
@@ -141,8 +142,8 @@ public class HomeController {
         final DefaultEmail email = DefaultEmail.builder()
                 .from(new InternetAddress("daylinzack@gmail.com", "Admin Darth Vader"))
                 .to(Lists.newArrayList(new InternetAddress(email2, username)))
-                .subject("Your meme is here and ready for consumption")
-                .body("Hi youre meme is: localhost:3000/memelink/" + String.valueOf(id) )
+                .subject("I got someone for you")
+                .body("Dear loopin.fullname, pricipal.getname of fullname want to rent your room")
                 .encoding("UTF-8").build();
         emailService.send(email);
     }
