@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-
+//For Email Service
 import com.google.common.collect.Lists;
 import it.ozimov.springboot.mail.model.defaultimpl.DefaultEmail;
 import it.ozimov.springboot.mail.service.EmailService;
@@ -34,11 +34,10 @@ public class HomeController {
     private UserRepository userRepository;
     @Autowired
     private HouseRepository houseRepository;
-    @Autowired
-    private CustomerRepository customerRepository;
 
 
-    String emailSession;
+
+    String ReceiverFullNameSession, SenderFullNameSession;
     @RequestMapping("/")
     public String index(Model model)
     {
@@ -60,7 +59,6 @@ public class HomeController {
     @RequestMapping(value="/register", method = RequestMethod.POST)
     public String processRegistrationPage(@Valid @ModelAttribute("user") User user, BindingResult result, Model model){
         model.addAttribute("user", user);
-        emailSession = user.getEmail();
         userValidator.validate(user, result);
         if (result.hasErrors()) {
             return "register";
@@ -138,25 +136,29 @@ public class HomeController {
 
 
     @RequestMapping(value = "/email/{username}", method = RequestMethod.GET)
-    public String ToEmail(@PathVariable("username") String username, User user){
+    public String ToEmail(@PathVariable("username") String username, User user, User userSender, Principal principal){
         user = userRepository.findByUsername(username);
-        try {
+       userSender = userRepository.findByUsername(principal.getName());
+        SenderFullNameSession = userSender.getFullName();
+        ReceiverFullNameSession = user.getFullName();
+          try {
             sendEmailWithoutTemplating(username, user.getEmail());
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-        return "loginSuccess"; //temp return
+        return "/"; //temp return
     }
 
 
     @Autowired
     public EmailService emailService;
-    public void sendEmailWithoutTemplating(String username, String email2) throws UnsupportedEncodingException {
+    public void sendEmailWithoutTemplating(String username, String receiver) throws UnsupportedEncodingException {
         final DefaultEmail email = DefaultEmail.builder()
-                .from(new InternetAddress("daylinzack@gmail.com", "Admin Darth Vader"))
-                .to(Lists.newArrayList(new InternetAddress(email2, username)))
+                .from(new InternetAddress("debal.felagi@gmail.com", "Debal's ADMIN"))
+                .to(Lists.newArrayList(new InternetAddress(receiver, username)))
                 .subject("I got someone for you")
-                .body("Dear loopin.fullname, pricipal.getname of fullname want to rent your room")
+                .body("Dear " + ReceiverFullNameSession +  "\n" + SenderFullNameSession + " wants to rent your room."+ "\n"
+                 + "Please reply for this email if the room is still Available."+ "\n" +  "\n" + "Kindly Regards, " + "\n" + "DEBAL ADMIN")
                 .encoding("UTF-8").build();
         emailService.send(email);
     }
