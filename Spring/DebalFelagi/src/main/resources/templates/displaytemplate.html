@@ -9,21 +9,24 @@
     <div class="jumbotron">
 
         <nav class="navbar navbar-default" th:replace="base::navi"> </nav>
+        <table>
+        <tr><h2 style="color:brown; font-family: 'Footlight MT Light'" align="center">Search by State or Another ZIP</h2></tr>
+            <tr><form th:action="@{/searchstate}" th:object="${customer}"  method="post" >
 
-        <h2 style="color:brown; font-family: 'Footlight MT Light'" align="center">Search by State or Another ZIP</h2>
-        <form th:action="@{/searchstate}" th:object="${customer}"  method="post" >
-            <label for="state" class="sr-only">State</label>
-            <div class="col-md-4">
-            <input type="text" th:field="*{state}" id="state" class="form-control" placeholder="Enter 2 Character State" />
-            <button type="submit" class="btn btn-primary">Search</button></div>
-        </form>
+            <td><div class="col-md-4"><h4 style="color:brown; font-family: 'Footlight MT Light'">State</h4></div></td>
+            <td><input type="text" th:field="*{state}" id="state" class="form-control" placeholder="Enter 2 Character State" /></td>
+                <td><button type="submit" class="btn btn-primary">Search</button></td>
+        </form></tr>
+
+            <tr>
         <form th:action="@{/searchzip}" th:object="${customer}"  method="post" >
-            <label for="zip" class="sr-only">Enter ZIP</label>
-            <div class="col-md-4">
-            <input type="text" name= "zip" id="zip" class="form-control" placeholder="ZIP Code" />
-            <button type="submit" class="btn btn-primary">Search</button></div>
+
+            <td><div class="col-md-4"><h4 style="color:brown; font-family: 'Footlight MT Light'">ZIP Code</h4></div></td>
+            <td><input type="text" th:field="*{zip}" id="zip" class="form-control" placeholder="ZIP Code" /></td>
+           <td><button type="submit" class="btn btn-primary">Search</button></td>
         </form>
-        <br/><br/>
+            </tr>
+        </table>
 
         <table class="table table-hover">
 

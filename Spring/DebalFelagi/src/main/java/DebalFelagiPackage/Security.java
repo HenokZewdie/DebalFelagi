@@ -26,10 +26,10 @@ public class Security extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
+                .antMatchers("/houseregister","/search").authenticated()
                 .antMatchers("/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
-
                 .formLogin().failureUrl("/login")
                 .defaultSuccessUrl("/loginSuccess")
                 .loginPage("/login");

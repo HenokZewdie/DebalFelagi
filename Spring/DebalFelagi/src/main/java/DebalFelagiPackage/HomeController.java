@@ -7,13 +7,20 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
 import javax.validation.Valid;
+import java.io.UnsupportedEncodingException;
 import java.security.Principal;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Date;
 import java.util.List;
+
+
+import com.google.common.collect.Lists;
+import it.ozimov.springboot.mail.model.defaultimpl.DefaultEmail;
+import it.ozimov.springboot.mail.service.EmailService;
+import javax.mail.internet.InternetAddress;
+
+
 
 @Controller
 public class HomeController {
@@ -32,7 +39,9 @@ public class HomeController {
 
     String emailSession;
     @RequestMapping("/")
-    public String index(){
+    public String index(Model model)
+    {
+        model.addAttribute(new User());
         return "home";
     }
 
@@ -105,6 +114,40 @@ public class HomeController {
         model.addAttribute("customerList", zipList);
         return "/displaytemplate";
     }
+
+    @RequestMapping(value = "/searchzip", method = RequestMethod.GET)
+    public String searchzipGet(Model model){
+        model.addAttribute("customer", new Customer());
+        return "/searchzip";
+    }
+    @RequestMapping(value = "/searchzip", method = RequestMethod.POST)
+    public String searchzip(Model model,  Customer customer){
+        model.addAttribute("customer", new Customer());
+        long min = customer.getZip() - 10;
+        long max = customer.getZip() + 10;
+        List<Customer> zipSearch = new ArrayList<>();
+        for(long i=min;i<=max;i++){
+            List<Customer> zipList = customerRepository.findByZip(i);
+            zipSearch.addAll(zipList);
+        }
+        model.addAttribute("customerList", zipSearch);
+        return "/displaytemplate";
+    }
+
+
+    @Autowired
+    public EmailService emailService;
+    public void sendEmailWithoutTemplating(String username, String email2, Long id) throws UnsupportedEncodingException {
+        final DefaultEmail email = DefaultEmail.builder()
+                .from(new InternetAddress("daylinzack@gmail.com", "Admin Darth Vader"))
+                .to(Lists.newArrayList(new InternetAddress(email2, username)))
+                .subject("Your meme is here and ready for consumption")
+                .body("Hi youre meme is: localhost:3000/memelink/" + String.valueOf(id) )
+                .encoding("UTF-8").build();
+        emailService.send(email);
+    }
+
+
     public UserValidator getUserValidator() {
         return userValidator;
     }
