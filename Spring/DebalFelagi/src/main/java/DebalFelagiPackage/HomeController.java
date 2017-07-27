@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import javax.validation.Valid;
@@ -69,7 +70,7 @@ public class HomeController {
         }
         user = userRepository.findByUsername(user.getUsername());
         model.addAttribute("register1", user);
-        return "displaySearch";
+        return "/login";
     }
 
     @RequestMapping(value = "/houseregister", method = RequestMethod.GET)
@@ -88,57 +89,69 @@ public class HomeController {
     }
 
     @RequestMapping(value = "/loginSuccess", method = RequestMethod.GET)
-    public String displayTemp(Model model, Principal principal, User user){
-        model.addAttribute("customer", new Customer());
+    public String displayTemp(Model model, Principal principal, User user, House house){
+        model.addAttribute("house", new House());
         user = userRepository.findByUsername(principal.getName());
         long min = user.getZipCode() - 50;
         long max = user.getZipCode() + 50;
-        List<Customer> zipList = new ArrayList<>();
+        List<House> zipList = new ArrayList<>();
         for (long i = min; i<=max; i++){
-            List<Customer> customerList = customerRepository.findByZip(i);
-            zipList.addAll(customerList);
+            List<House> houseList = houseRepository.findByZipCode(i);
+            zipList.addAll(houseList);
         }
 
-        model.addAttribute("customerList", zipList);
+        model.addAttribute("houseList", zipList);
         return "/displaytemplate";
     }
 
     @RequestMapping(value = "/searchstate", method = RequestMethod.GET)
     public String searchstateGet(Model model){
-        model.addAttribute("customer", new Customer());
+        model.addAttribute("house", new House());
         return "/searchstate";
     }
     @RequestMapping(value = "/searchstate", method = RequestMethod.POST)
-    public String searchstate(Model model,  Customer customer){
-        model.addAttribute("customer", new Customer());
-        List<Customer> zipList = customerRepository.findByState(customer.getState());
-        model.addAttribute("customerList", zipList);
+    public String searchstate(Model model,  House house){
+        model.addAttribute("house", new House());
+        List<House> zipList = houseRepository.findByState(house.getState());
+        model.addAttribute("houseList", zipList);
         return "/displaytemplate";
     }
 
     @RequestMapping(value = "/searchzip", method = RequestMethod.GET)
     public String searchzipGet(Model model){
-        model.addAttribute("customer", new Customer());
+        model.addAttribute("house", new House());
         return "/searchzip";
     }
     @RequestMapping(value = "/searchzip", method = RequestMethod.POST)
-    public String searchzip(Model model,  Customer customer){
-        model.addAttribute("customer", new Customer());
-        long min = customer.getZip() - 10;
-        long max = customer.getZip() + 10;
-        List<Customer> zipSearch = new ArrayList<>();
+    public String searchzip(Model model,  House house){
+        model.addAttribute("house", new House());
+        long min = house.getZipCode() - 10;
+        long max = house.getZipCode() + 10;
+        List<House> zipSearch = new ArrayList<>();
         for(long i=min;i<=max;i++){
-            List<Customer> zipList = customerRepository.findByZip(i);
+            List<House> zipList = houseRepository.findByZipCode(i);
             zipSearch.addAll(zipList);
         }
-        model.addAttribute("customerList", zipSearch);
+        model.addAttribute("houseList", zipSearch);
         return "/displaytemplate";
+    }
+
+
+    @RequestMapping(value = "/email/{username}", method = RequestMethod.GET)
+    public String ToEmail(@PathVariable("username") String username, User user){
+        user = userRepository.findByUsername(username);
+        try {
+            sendEmailWithoutTemplating(username, user.getEmail());
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return "loginSuccess"; //temp return
     }
 
 
     @Autowired
     public EmailService emailService;
-    public void sendEmailWithoutTemplating(String username, String email2, Long id) throws UnsupportedEncodingException {
+    public void sendEmailWithoutTemplating(String username, String email2) throws UnsupportedEncodingException {
         final DefaultEmail email = DefaultEmail.builder()
                 .from(new InternetAddress("daylinzack@gmail.com", "Admin Darth Vader"))
                 .to(Lists.newArrayList(new InternetAddress(email2, username)))

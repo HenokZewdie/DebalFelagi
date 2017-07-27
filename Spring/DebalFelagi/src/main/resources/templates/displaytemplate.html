@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="www.thymeleaf.org">
+<html     xmlns="http://www.w3.org/1999/xhtml"
+          xmlns:th="http://www.thymeleaf.org"
+          xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <head th:replace="base :: Mena">
     <meta charset="UTF-8" />
     <title>Title</title>
@@ -11,7 +13,7 @@
         <nav class="navbar navbar-default" th:replace="base::navi"> </nav>
         <table>
         <tr><h2 style="color:brown; font-family: 'Footlight MT Light'" align="center">Search by State or Another ZIP</h2></tr>
-            <tr><form th:action="@{/searchstate}" th:object="${customer}"  method="post" >
+            <tr><form th:action="@{/searchstate}" th:object="${house}"  method="post" >
 
             <td><div class="col-md-4"><h4 style="color:brown; font-family: 'Footlight MT Light'">State</h4></div></td>
             <td><input type="text" th:field="*{state}" id="state" class="form-control" placeholder="Enter 2 Character State" /></td>
@@ -19,10 +21,10 @@
         </form></tr>
 
             <tr>
-        <form th:action="@{/searchzip}" th:object="${customer}"  method="post" >
+        <form th:action="@{/searchzip}" th:object="${house}"  method="post" >
 
             <td><div class="col-md-4"><h4 style="color:brown; font-family: 'Footlight MT Light'">ZIP Code</h4></div></td>
-            <td><input type="text" th:field="*{zip}" id="zip" class="form-control" placeholder="ZIP Code" /></td>
+            <td><input type="text" th:field="*{zipCode}" id="zip" class="form-control" placeholder="ZIP Code" /></td>
            <td><button type="submit" class="btn btn-primary">Search</button></td>
         </form>
             </tr>
@@ -35,21 +37,21 @@
                 <th>City</th>
                 <th>State</th>
                 <th>ZIP Code</th>
-                <th>Email</th>
-                <th>Owner</th>
+                <th>Type</th>
+                <th>Price</th>
 
             </tr>
 
-            <tr th:each="loopin : ${customerList}">
+            <tr th:each="loopin : ${houseList}">
 
-                    <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.street}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.street}"></h5></td>
                 <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.city}"></h5></td>
                 <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.state}"></h5></td>
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.zip}"></h5></td>
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.email}"></h5></td>
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.fullname}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.zipCode}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.type}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.price}"></h5></td>
                 <td>
-                  <button type="button" class="btn btn-primary">Email</button></a>
+                <a th:href="@{email/{username}(username=${loopin.username})}">  <button type="button" class="btn btn-primary">Email</button></a>
                 </td>
                     <!--<td th:text = "${#dates.format(mylink.date, 'MMM-dd-yyyy')}"></td>  #dates.format(sprint.releaseDate, 'dd-MMM-yyyy')-->
             </tr>
