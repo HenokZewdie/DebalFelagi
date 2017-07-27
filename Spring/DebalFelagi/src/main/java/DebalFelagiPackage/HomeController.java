@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
 import java.security.Principal;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 public class HomeController {
@@ -78,11 +81,30 @@ public class HomeController {
     public String displayTemp(Model model, Principal principal, User user){
         model.addAttribute("customer", new Customer());
         user = userRepository.findByUsername(principal.getName());
-        Iterable<Customer> customerList = customerRepository.findByZip(user.getZipCode());
-        model.addAttribute("customerList", customerList);
+        long min = user.getZipCode() - 50;
+        long max = user.getZipCode() + 50;
+        List<Customer> zipList = new ArrayList<>();
+        for (long i = min; i<=max; i++){
+            List<Customer> customerList = customerRepository.findByZip(i);
+            zipList.addAll(customerList);
+        }
+
+        model.addAttribute("customerList", zipList);
         return "/displaytemplate";
     }
 
+    @RequestMapping(value = "/searchstate", method = RequestMethod.GET)
+    public String searchstateGet(Model model){
+        model.addAttribute("customer", new Customer());
+        return "/searchstate";
+    }
+    @RequestMapping(value = "/searchstate", method = RequestMethod.POST)
+    public String searchstate(Model model,  Customer customer){
+        model.addAttribute("customer", new Customer());
+        List<Customer> zipList = customerRepository.findByState(customer.getState());
+        model.addAttribute("customerList", zipList);
+        return "/displaytemplate";
+    }
     public UserValidator getUserValidator() {
         return userValidator;
     }

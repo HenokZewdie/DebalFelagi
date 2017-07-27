@@ -34,10 +34,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/search" >Search<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="/search" sec:authorize="isAuthenticated()">Search<span class="sr-only">(current)</span></a></li>
                     <!--sec:authorize="isAuthenticated()" for search, register, sec:authorize="isAnonymous()" signup-->
-                    <li class="active"><a href="/houseregister" >Register Your Room<span class="sr-only">(current)</span></a></li>
-                    <li class="active"><a href="/register"><span class="sr-only">(current)</span>Sign up</a></li>
+                    <li class="active"><a href="/houseregister" sec:authorize="isAuthenticated()">Register Your Room<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="/register" sec:authorize="isAnonymous()"><span class="sr-only">(current)</span>Sign up</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="/login" sec:authorize="isAnonymous()" ><span class="sr-only">(current)</span>Login</a></li>

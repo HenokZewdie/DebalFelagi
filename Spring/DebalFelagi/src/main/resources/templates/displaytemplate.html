@@ -10,6 +10,21 @@
 
         <nav class="navbar navbar-default" th:replace="base::navi"> </nav>
 
+        <h2 style="color:brown; font-family: 'Footlight MT Light'" align="center">Search by State or Another ZIP</h2>
+        <form th:action="@{/searchstate}" th:object="${customer}"  method="post" >
+            <label for="state" class="sr-only">State</label>
+            <div class="col-md-4">
+            <input type="text" th:field="*{state}" id="state" class="form-control" placeholder="Enter 2 Character State" />
+            <button type="submit" class="btn btn-primary">Search</button></div>
+        </form>
+        <form th:action="@{/searchzip}" th:object="${customer}"  method="post" >
+            <label for="zip" class="sr-only">Enter ZIP</label>
+            <div class="col-md-4">
+            <input type="text" name= "zip" id="zip" class="form-control" placeholder="ZIP Code" />
+            <button type="submit" class="btn btn-primary">Search</button></div>
+        </form>
+        <br/><br/>
+
         <table class="table table-hover">
 
             <tr>
@@ -24,12 +39,15 @@
 
             <tr th:each="loopin : ${customerList}">
 
-                    <td th:text = "${loopin.street}"></td>
-                    <td th:text = "${loopin.city}"></td>
-                    <td th:text = "${loopin.state}"></td>
-                    <td th:text = "${loopin.zip}"></td>
-                    <td th:text = "${loopin.email}"></td>
-                    <td th:text = "${loopin.fullname}"></td>
+                    <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.street}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.city}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.state}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.zip}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.email}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.fullname}"></h5></td>
+                <td>
+                  <button type="button" class="btn btn-primary">Email</button></a>
+                </td>
                     <!--<td th:text = "${#dates.format(mylink.date, 'MMM-dd-yyyy')}"></td>  #dates.format(sprint.releaseDate, 'dd-MMM-yyyy')-->
             </tr>
 
