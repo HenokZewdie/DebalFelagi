@@ -27,7 +27,7 @@ public class Security extends WebSecurityConfigurerAdapter {
         http
                 .authorizeRequests()
                 .antMatchers("/houseregister","/search").authenticated()
-                .antMatchers("/**").permitAll()
+                .antMatchers("/**","/resources/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin().failureUrl("/login")

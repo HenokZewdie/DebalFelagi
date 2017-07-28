@@ -146,7 +146,7 @@ public class HomeController {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-        return "/"; //temp return
+        return "redirect:/"; //temp return
     }
 
 
@@ -164,10 +164,4 @@ public class HomeController {
     }
 
 
-    public UserValidator getUserValidator() {
-        return userValidator;
-    }
-    public void setUserValidator(UserValidator userValidator) {
-        this.userValidator = userValidator;
-    }
 }

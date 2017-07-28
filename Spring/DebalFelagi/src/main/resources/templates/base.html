@@ -15,7 +15,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
-<body>
+<body background="${pageContext.request.contextPath}/resources/images/bg.jpg">
 <nav class="navbar navbar-default" th:fragment="navi">
     <div class="container">
 
@@ -38,6 +38,7 @@
                     <!--sec:authorize="isAuthenticated()" for search, register, sec:authorize="isAnonymous()" signup-->
                     <li class="active"><a href="/houseregister" sec:authorize="isAuthenticated()">Register Your Room<span class="sr-only">(current)</span></a></li>
                     <li class="active"><a href="/register" sec:authorize="isAnonymous()"><span class="sr-only">(current)</span>Sign up</a></li>
+                    <li class="active"><a href="/adminPage" sec:authorize="hasAuthority('ADMIN')"><span class="sr-only">(current)</span>Admin Page</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="/login" sec:authorize="isAnonymous()" ><span class="sr-only">(current)</span>Login</a></li>
