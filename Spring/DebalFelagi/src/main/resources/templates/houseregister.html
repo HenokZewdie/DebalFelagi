@@ -14,7 +14,7 @@
         <div class="container">
             <br /><br /><br />
             <h4> Registrer Here</h4>
-            <form action="#" th:action="@{/houseregister}" th:object="${house}" method="post">
+            <form action="#" th:action="@{/houseregister}" enctype="multipart/form-data" th:object="${house}" method="post">
 
                 <div class="col-xs-4">
                     <label for="street">Street Address</label>
@@ -60,10 +60,27 @@
                     <label for="remark">Remark</label>
                     <input type="text" th:field="*{remark}" class="form-control" id="remark" placeholder="Near to supermarket and good for transportation" />
                 </div>
+
+                <div class="col-xs-4">
+                    <label for="remark">Upload Image</label>
+                    <input type="file" name="file" />
+                </div>
+
+
                 <div class="col-md-2">
                     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button></div>
 
             </form>
+            <div th:if="${message}">
+                <h2 th:text="${message}"/><br/><br/>
+            </div>
+            <div th:if="${imageurl} != null">
+                <img th:src="${imageurl}" />
+                <hr />
+                <div th:utext="${sizedimageurl}">
+
+                </div>
+            </div>
 
         </div><!-- /.container -->
         <th:block th:replace="base :: footlinks"></th:block>

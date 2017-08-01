@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="anotherMVC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="anotherMVC.war">
+      <element id="artifact" artifact-name="anotherMVC:war exploded" />
+    </root>
+  </artifact>
+</component>

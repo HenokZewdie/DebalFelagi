@@ -6,72 +6,32 @@
     <meta charset="UTF-8" />
     <title>Home</title>
 </head>
-<body background="/resources/Images/bg.jpg">
+<body background="https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-17.jpg" >
 
 <nav class="navbar navbar-default" th:replace="base::navi"></nav>
 
 <div class="container">
-    <div class="jumbotron">
-        <div class="container">
-            <h3>Debal (Roommate)</h3>
-            <p><h5>Another Big conflict
-            This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
-            This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</h5></p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">More &raquo;</a></p>
-        </div>
-    </div>
-    <!-- Example row of columns -->
-    <div class="row">
-        <h3 style="color:#006699" > Register Here</h3>
-        <div class="col-md-4">
-            <form autocomplete="off" action="#" th:action="@{/register}" th:object="${user}" method="post">
 
-                <span th:if="${#fields.hasErrors('fullName')}" th:errors="*{fullName}">Full Name Error</span>
-                <input type="text" class="form-control" id="fullName" placeholder="Full Name" th:field="*{fullName}" />
-                <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</span>
-                <input type="email" class="form-control" id="email" placeholder="Email" th:field="*{email}" />
-                <span th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Username Error</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" th:field="*{username}" />
-                <span th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password Error</span>
-                <input type="password" class="form-control" id="password" placeholder="Password" th:field="*{password}" />
-                <span th:if="${#fields.hasErrors('zipCode')}" th:errors="*{zipCode}">Password Error</span>
-                <input type="text" class="form-control" id="zipCode" placeholder="zipCode" th:field="*{zipCode}" />
+<table>
+    <th></th>
+    <tr><td style="color: transparent">.</td></tr>
+    <tr><td style="color: transparent">.</td></tr>
+    <tr><td style="color: transparent">.</td></tr>
+    <tr><td style="color: transparent">.</td></tr>
+    <tr><td style="color: transparent">.</td></tr>
+    <tr><td style="color: transparent">.</td></tr>
 
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
-            </form></div>
-        <div class="col-md-4">
-            <h2>Find Rooms</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="/login" role="button">Search &raquo;</a></p>
-        </div>
-        <div class="col-md-3">
-            <div th:if="${param.error}">
-                Invalid username and password.
-            </div>
-            <div th:if="${param.logout}">
-                You have been logged out.
-            </div>
-            <form th:action="@{/login}" th:object="${user}" method="post">
-                <h2 class="form-signin-heading">Login</h2>
-                <label for="inputEmail" class="sr-only">Username</label>
-                <input type="text" name= "username" id="inputEmail" class="form-control" placeholder="Email address" />
-                <label for="inputPassword" class="sr-only">Password</label>
-                <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" />
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" value="remember-me" /> Remember me
-                    </label>
-                </div>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-            </form>
-        </div>
-    </div>
-    <div class="panel panel-default" > <!--th:fragment="footer"-->
-        <div class="panel-body">
 
-        </div>
-        <div class="panel-footer" style="font: Pristina" >DebalFelagi @Nightmare Debal, 2017 </div>
-    </div>
+    <tr><td style="font-family: 'Baskerville Old Face'; font-size: 64px; color: black">Rent your Next Apartment</td></tr>
+    <div class="col-md-4">
+        <tr><form action="#" th:action="@{/searchzip}" th:object="${house}" method="post">
+            <td><input type="text"th:field="*{zipCode}" style="box-shadow: lightskyblue" class="form-control" placeholder="Find Your Next Destiny by ZIP, City or State"/>
+
+                <button class="btn btn-primary">SEARCH</button></td></form></tr></div>
+
+</table>
+
+
 </div>
 </body>
 </html>

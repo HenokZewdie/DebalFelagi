@@ -27,6 +27,7 @@ public class Security extends WebSecurityConfigurerAdapter {
         http
                 .authorizeRequests()
                 .antMatchers("/houseregister","/search").authenticated()
+                .antMatchers("/adminPage").hasAuthority("ADMIN")
                 .antMatchers("/**","/resources/**").permitAll()
                 .anyRequest().authenticated()
                 .and()

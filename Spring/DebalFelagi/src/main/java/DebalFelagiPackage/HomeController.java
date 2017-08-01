@@ -4,24 +4,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
+import com.cloudinary.utils.ObjectUtils;
 import javax.validation.Valid;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 //For Email Service
 import com.google.common.collect.Lists;
 import it.ozimov.springboot.mail.model.defaultimpl.DefaultEmail;
 import it.ozimov.springboot.mail.service.EmailService;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
 import javax.mail.internet.InternetAddress;
-
-
 
 @Controller
 public class HomeController {
@@ -34,22 +35,21 @@ public class HomeController {
     private UserRepository userRepository;
     @Autowired
     private HouseRepository houseRepository;
-
-
+    @Autowired
+            private CloudinaryConfig cloudc;
 
     String ReceiverFullNameSession, SenderFullNameSession;
+
     @RequestMapping("/")
-    public String index(Model model)
+    public String index(Model model, House house)
     {
-        model.addAttribute(new User());
+        model.addAttribute("house",new House());
         return "home";
     }
-
     @RequestMapping("/login")
     public String login(){
         return "login";
     }
-
 
     @RequestMapping(value="/register", method = RequestMethod.GET)
     public String showRegistrationPage(Model model){
@@ -78,7 +78,29 @@ public class HomeController {
     }
 
     @RequestMapping(value = "/houseregister", method = RequestMethod.POST)
-    public String housePOST(@ModelAttribute("house") House house, Model model, Principal principal){
+    public String housePOST(@RequestParam("file") MultipartFile file, RedirectAttributes redirectAttributes,
+                            Model model, @ModelAttribute House house, Principal principal){
+
+        if (file.isEmpty()){
+            redirectAttributes.addFlashAttribute("message","Please select a file to upload");
+            return "redirect:uploadStatus";
+        }
+
+        try {
+            Map uploadResult =  cloudc.upload(file.getBytes(), ObjectUtils.asMap("resourcetype", "auto"));
+
+            model.addAttribute("message",
+                    "You successfully uploaded '" + file.getOriginalFilename() + "'");
+            String filename = uploadResult.get("public_id").toString() + "." + uploadResult.get("format").toString();
+            //String effect = p.getTitle();
+            house.setPhoto("<img src='http://res.cloudinary.com/henokzewdie/image/upload/" +filename+"' width='200px'/>");
+            //System.out.printf("%s\n", cloudc.createUrl(filename,900,900, "fit"));
+
+        } catch (IOException e){
+            e.printStackTrace();
+            model.addAttribute("message", "Sorry I can't upload that!");
+        }
+
         house.setDate(new Date());
         house.setUsername(principal.getName());
         houseRepository.save(house);
@@ -109,7 +131,6 @@ public class HomeController {
     }
     @RequestMapping(value = "/searchstate", method = RequestMethod.POST)
     public String searchstate(Model model,  House house){
-        model.addAttribute("house", new House());
         List<House> zipList = houseRepository.findByState(house.getState());
         model.addAttribute("houseList", zipList);
         return "/displaytemplate";
@@ -134,7 +155,6 @@ public class HomeController {
         return "/displaytemplate";
     }
 
-
     @RequestMapping(value = "/email/{username}", method = RequestMethod.GET)
     public String ToEmail(@PathVariable("username") String username, User user, User userSender, Principal principal){
         user = userRepository.findByUsername(username);
@@ -149,6 +169,10 @@ public class HomeController {
         return "redirect:/"; //temp return
     }
 
+    @RequestMapping(value = "/adminPage", method = RequestMethod.GET)
+    public String adminPage(){
+        return "/adminpage";
+    }
 
     @Autowired
     public EmailService emailService;

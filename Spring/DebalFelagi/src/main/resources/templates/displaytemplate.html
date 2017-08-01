@@ -6,11 +6,9 @@
     <meta charset="UTF-8" />
     <title>Title</title>
 </head>
-<body>
+<body background="/resources/Images/bg.jpg">
 <div class="container">
-    <div class="jumbotron">
-
-        <nav class="navbar navbar-default" th:replace="base::navi"> </nav>
+            <nav class="navbar navbar-default" th:replace="base::navi"> </nav>
         <table>
         <tr><h2 style="color:brown; font-family: 'Footlight MT Light'" align="center">Search by State or Another ZIP</h2></tr>
             <tr><form th:action="@{/searchstate}" th:object="${house}"  method="post" >
@@ -32,26 +30,32 @@
 
         <table class="table table-hover">
 
-            <tr>
+          <!--  <tr>
                 <th>Street</th>
                 <th>City</th>
                 <th>State</th>
                 <th>ZIP Code</th>
                 <th>Type</th>
                 <th>Price</th>
+                <th>Photo</th>
 
-            </tr>
+            </tr>-->
 
             <tr th:each="loopin : ${houseList}">
-
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.street}"></h5></td>
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.city}"></h5></td>
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.state}"></h5></td>
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.zipCode}"></h5></td>
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.type}"></h5></td>
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.price}"></h5></td>
+                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:utext = "${loopin.photo}" />"></h5></td>
+                <td><h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.type}"></h6></td>
                 <td>
-                <a th:href="@{email/{username}(username=${loopin.username})}">  <button type="button" class="btn btn-primary">Email</button></a>
+                <h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.street}"></h6>
+                <h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.state}"></h6>
+                <h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.city}"></h6>
+                <h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.zipCode}"></h6>
+                </td>
+
+
+                <td><h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.price}"></h6>$</td>
+
+                <td>
+                <a th:href="@{email/{username}(username=${loopin.username})}">  <button type="button" class="btn btn-primary">Check Availability</button></a>
                 </td>
                 <td>
                      <button type="button" class="btn btn-primary">SMS</button></a>
@@ -62,6 +66,6 @@
         </table>
 
     </div>
-</div>
+
 </body>
 </html>

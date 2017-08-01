@@ -27,7 +27,7 @@ public class House {
     private String kitchen;
 
     private String duration;
-
+    private String photo;
     private double price;
     private long phone;
     private String remark;
@@ -145,5 +145,13 @@ public class House {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 }
