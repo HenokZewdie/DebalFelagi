@@ -13,56 +13,56 @@
     <div class="jumbotron">
         <div class="container">
             <br /><br /><br />
-            <h4> Registrer Here</h4>
+            <h4 style="font-family: 'Sansation'; font-size: 24px; color: #006699"> Registrer Here</h4>
             <form action="#" th:action="@{/houseregister}" enctype="multipart/form-data" th:object="${house}" method="post">
 
                 <div class="col-xs-4">
-                    <label for="street">Street Address</label>
+                    <label for="street" style="font-family: 'Sansation'; font-size: 16px; color: #006699">Street Address</label>
                     <input type="text" th:field="*{street}" class="form-control" id="street" placeholder="Street address" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="city">City</label>
+                    <label for="city" style="font-family: 'Sansation'; font-size: 16px; color: #006699">City</label>
                     <input type="text" th:field="*{city}" class="form-control" id="city" placeholder="City" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="state">State</label>
+                    <label for="state" style="font-family: 'Sansation'; font-size: 16px; color: #006699">State</label>
                     <input type="text" th:field="*{state}" class="form-control" id="state" placeholder="state" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="zip">ZIP Code</label>
+                    <label for="zip" style="font-family: 'Sansation'; font-size: 16px; color: #006699">ZIP Code</label>
                     <input type="text" th:field="*{zipCode}" class="form-control" id="zip" placeholder="ZIP Code" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="type">Type</label>
+                    <label for="type" style="font-family: 'Sansation'; font-size: 16px; color: #006699">Type</label>
                     <input type="text" th:field="*{type}" class="form-control" id="type" placeholder="Apt, roommate, Basement" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="bath">Bath</label>
+                    <label for="bath" style="font-family: 'Sansation'; font-size: 16px; color: #006699">Bath</label>
                     <input type="text" th:field="*{bath}" class="form-control" id="bath" placeholder="Individual, shared" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="kitchen">Kitchen</label>
+                    <label for="kitchen" style="font-family: 'Sansation'; font-size: 16px; color: #006699">Kitchen</label>
                     <input type="text" th:field="*{kitchen}" class="form-control" id="kitchen" placeholder="Kitchen" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="duration">Duration</label>
+                    <label for="duration" style="font-family: 'Sansation'; font-size: 16px; color: #006699">Duration</label>
                     <input type="text" th:field="*{duration}" class="form-control" id="duration" placeholder="3 month, unlimited" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="price">price</label>
+                    <label for="price" style="font-family: 'Sansation'; font-size: 16px; color: #006699">price</label>
                     <input type="text" th:field="*{price}" class="form-control" id="price" placeholder="price" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="phone">phone</label>
+                    <label for="phone" style="font-family: 'Sansation'; font-size: 16px; color: #006699">phone</label>
                     <input type="text" th:field="*{phone}" class="form-control" id="phone" placeholder="phone is optional" />
                 </div>
                 <div class="col-xs-4">
-                    <label for="remark">Remark</label>
+                    <label for="remark" style="font-family: 'Sansation'; font-size: 16px; color: #006699">Description</label>
                     <input type="text" th:field="*{remark}" class="form-control" id="remark" placeholder="Near to supermarket and good for transportation" />
                 </div>
 
                 <div class="col-xs-4">
-                    <label for="remark">Upload Image</label>
+                    <label for="remark" style="font-family: 'Sansation'; font-size: 16px; color: #006699">Upload Image</label>
                     <input type="file" name="file" />
                 </div>
 

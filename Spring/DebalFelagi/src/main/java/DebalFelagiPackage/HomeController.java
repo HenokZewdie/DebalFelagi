@@ -39,6 +39,8 @@ public class HomeController {
     private CloudinaryConfig cloudc;
     @Autowired
     private MessageRepository messageRepository;
+    @Autowired
+    private NotificationRepository notificationRepository;
 
     String ReceiverFullNameSession, SenderFullNameSession, Sessionfullname, sessionUsername, fromSession, toSession, messageSession;
 
@@ -109,12 +111,23 @@ public class HomeController {
         house.setUsername(principal.getName());
         houseRepository.save(house);
         model.addAttribute(new House());
+         /*email a notification for everybody when the new house is registered using a forloop*/
+        Iterable<Notification> notify= notificationRepository.findAll();
+        for(Notification itrNotify: notify){
+            String message = "Hello Ekele, ".concat("/n").concat("New house has posted with the link below.") ; //we will add the actual URL for the new house
+            try {
+                sendEmailWithoutTemplating(sessionUsername, fromSession, itrNotify.getEmail(), message);
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+        }
         return "redirect:/houseregister";
     }
 
     @RequestMapping(value = "/loginSuccess", method = RequestMethod.GET)
-    public String displayTemp(Model model, Principal principal, User user, House house){
+    public String displayTemp(Model model, Principal principal, User user, Notification notification){
         model.addAttribute("house", new House());
+        model.addAttribute("notify", new Notification());
         user = userRepository.findByUsername(principal.getName());
         long min = user.getZipCode() - 50;
         long max = user.getZipCode() + 50;
@@ -136,6 +149,7 @@ public class HomeController {
     @RequestMapping(value = "/searchstate", method = RequestMethod.POST)
     public String searchstate(Model model,  House house){
         model.addAttribute("messagesend", new MessageSend());
+        model.addAttribute("notify", new Notification());
         String temp = house.getState();
         List<House> zipList = houseRepository.findByState(temp);
         if(zipList.isEmpty()){
@@ -182,14 +196,14 @@ public class HomeController {
         model.addAttribute("SessionName", Sessionfullname); // to display the fullname at the detailed page and used also to messagesending to save it.
         return "detailed";
     }
-
+        /*The message on the detailed service*/
     @RequestMapping(value = "/messagesending", method = RequestMethod.GET)
     public String detailedPost( Model model){
         model.addAttribute("messagesender", new MessageSend());
         return "messagesending";
     }
     @RequestMapping(value = "/messagesending", method = RequestMethod.POST)
-    public String message(@ModelAttribute MessageSend messageSend, Model model, User user){
+    public String message(@ModelAttribute MessageSend messageSend,  User user, Notification notification){
         messageSend.setRecieverUsername(sessionUsername);
         messageRepository.save(messageSend);
         fromSession = messageSend.getSenderEmail();
@@ -215,22 +229,16 @@ public class HomeController {
         emailService.send(email);
     }
 
-
-
-
-   /* @RequestMapping(value = "/email/{username}", method = RequestMethod.GET)
-    public String ToEmail(@PathVariable("username") String username, User user, User userSender, Principal principal){
-        user = userRepository.findByUsername(username);
-       userSender = userRepository.findByUsername(principal.getName());
-        SenderFullNameSession = userSender.getFullName();
-        ReceiverFullNameSession = user.getFullName();
-          try {
-            sendEmailWithoutTemplating(username, user.getEmail());
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
-        return "redirect:/"; //temp return
-    }*/
+    @RequestMapping(value = "/notification", method = RequestMethod.GET)
+    public String notifyGet(Model model){
+        model.addAttribute("notify", new Notification());
+        return "/notification";
+    }
+    @RequestMapping(value = "/notification", method = RequestMethod.POST)
+    public String notifyPost(@ModelAttribute Notification notification){
+        notificationRepository.save(notification);
+        return "redirect:/";
+    }
 
     @RequestMapping(value = "/adminPage", method = RequestMethod.GET)
     public String adminPage(){
