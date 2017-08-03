@@ -17,30 +17,25 @@
             <tr th:each="loopin : ${detailedList}">
                 <td th:utext = "${loopin.detailphoto}" th:border="1" />"></h5></td>
                 <td>
-                    <form th:action="@{/sendEmail}" th:object="${house}" method="post">
+
                     <h6 style="font-family: 'Sansation'; font-size: 30px; color: #006699">Contact this Property</h6>
                     <h6 style="font-family: 'Sansation'; font-size: 16px; color: #006699">Call or Email</h6>
                     <h6 style="font-family: 'Sansation'; font-size: 16px; color: #006699"  th:text = "${loopin.phone}"></h6>
                     <h6 style="font-family: 'Sansation'; font-size: 16px; color: #006699"  th:text = "${SessionName}"></h6>
                     <h6 style="font-family: 'Sansation'; font-size: 16px; color: #006699">Message</h6>
-                    <textarea th:field="*{remark}" rows="4" cols="50" placeholder="Hi, I found your listing on Rent.com and would like to schedule a visit. Thanks!"></textarea>
-                    <h6 style="font-family: 'Sansation'; font-size: 16px; color: #006699">From</h6>
-                    <input type="text" th:field="*{type}" size="50"/>
+
+                    <form th:action="@{/messagesending}" th:object="${messagesender}" method="post">
+                    <textarea th:field="*{message}" rows="4" cols="50" placeholder="Hi, I found your listing on Rent.com and would like to schedule a visit. Thanks!"></textarea>
+                    <h6 style="font-family: 'Sansation'; font-size: 16px; color: #006699" placeholder="Your Full Name">From</h6>
+                    <input type="text" th:field="*{senderFullname}" size="50"/>
                     <h6 style="font-family: 'Sansation'; font-size: 16px; color: #006699">Email</h6>
-                    <input type="text" th:field="*{kitchen}" size="50"/>
+                    <input type="text" th:field="*{senderEmail}" size="50"/>
                     <h6 style="font-family: 'Sansation'; font-size: 16px; color: #006699">phone</h6>
                     <input type="text" th:field="*{phone}" size="50"/>
-
-                <a th:href="@{email/{username}(username=${loopin.username})}">  <button type="button" class="btn btn-lg btn-primary">Send Email</button></a>
-
-
+                    <button type="submit" class="btn btn-lg btn-primary">Send Email</button></a>
                     </form>
                 </td>
             </tr>
-
-
-
-
 
             <tr th:each="loopin : ${detailedList}"><h6 style="font-family: 'Sansation'; font-size: 16px; color: black"  th:text = "${loopin.type}"></h6></tr>
             <tr th:each="loopin : ${detailedList}">

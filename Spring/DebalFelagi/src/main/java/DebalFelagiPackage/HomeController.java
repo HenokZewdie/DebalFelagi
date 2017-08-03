@@ -1,5 +1,6 @@
 package DebalFelagiPackage;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -36,8 +37,10 @@ public class HomeController {
     private HouseRepository houseRepository;
     @Autowired
     private CloudinaryConfig cloudc;
+    @Autowired
+    private MessageRepository messageRepository;
 
-    String ReceiverFullNameSession, SenderFullNameSession;
+    String ReceiverFullNameSession, SenderFullNameSession, Sessionfullname, sessionUsername, fromSession, toSession, messageSession;
 
     @RequestMapping("/")
     public String index(Model model, House house)
@@ -132,6 +135,7 @@ public class HomeController {
     }
     @RequestMapping(value = "/searchstate", method = RequestMethod.POST)
     public String searchstate(Model model,  House house){
+        model.addAttribute("messagesend", new MessageSend());
         String temp = house.getState();
         List<House> zipList = houseRepository.findByState(temp);
         if(zipList.isEmpty()){
@@ -163,21 +167,58 @@ public class HomeController {
         return "/displaytemplate";
     }
     @RequestMapping(value = "/detailed/{id}", method = RequestMethod.GET)
-    public String detailedGet(@PathVariable("id") long id, Model model, User user){
+    public String detailedGet(@PathVariable("id") long id, Model model, User user, MessageSend messageSend){
         model.addAttribute("user", new User());
         model.addAttribute("house",new House());
-        String fullname= null;
+        model.addAttribute("messagesender", new MessageSend());
+        Sessionfullname= null;
         Iterable<House> detailedList = houseRepository.findById(id);
         for(House itr: detailedList){
           user= userRepository.findByUsername(itr.getUsername());
-          fullname = user.getFullName();
+            Sessionfullname = user.getFullName();
+            sessionUsername = user.getUsername();
         }
         model.addAttribute("detailedList", detailedList);
-        model.addAttribute("SessionName", fullname);
+        model.addAttribute("SessionName", Sessionfullname); // to display the fullname at the detailed page and used also to messagesending to save it.
         return "detailed";
     }
 
-    @RequestMapping(value = "/email/{username}", method = RequestMethod.GET)
+    @RequestMapping(value = "/messagesending", method = RequestMethod.GET)
+    public String detailedPost( Model model){
+        model.addAttribute("messagesender", new MessageSend());
+        return "messagesending";
+    }
+    @RequestMapping(value = "/messagesending", method = RequestMethod.POST)
+    public String message(@ModelAttribute MessageSend messageSend, Model model, User user){
+        messageSend.setRecieverUsername(sessionUsername);
+        messageRepository.save(messageSend);
+        fromSession = messageSend.getSenderEmail();
+        user = userRepository.findByUsername(messageSend.getRecieverUsername()); // Find the email of the receiver
+        toSession = user.getEmail();
+        messageSession = messageSend.getMessage();
+        try {
+            sendEmailWithoutTemplating(sessionUsername, fromSession, toSession, messageSession);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return "redirect:/";
+    }
+    @Autowired
+    public EmailService emailService;
+    public void sendEmailWithoutTemplating(String username, String sender, String receiver, String message) throws UnsupportedEncodingException {
+        final DefaultEmail email = DefaultEmail.builder()
+                .from(new InternetAddress("debal.felagi@gmail.com", "Debal's ADMIN"))
+                .to(Lists.newArrayList(new InternetAddress(receiver, username)))
+                .subject("I got someone for you")
+                .body(message)
+                .encoding("UTF-8").build();
+        emailService.send(email);
+    }
+
+
+
+
+   /* @RequestMapping(value = "/email/{username}", method = RequestMethod.GET)
     public String ToEmail(@PathVariable("username") String username, User user, User userSender, Principal principal){
         user = userRepository.findByUsername(username);
        userSender = userRepository.findByUsername(principal.getName());
@@ -189,23 +230,11 @@ public class HomeController {
             e.printStackTrace();
         }
         return "redirect:/"; //temp return
-    }
+    }*/
 
     @RequestMapping(value = "/adminPage", method = RequestMethod.GET)
     public String adminPage(){
         return "/adminpage";
     }
 
-    @Autowired
-    public EmailService emailService;
-    public void sendEmailWithoutTemplating(String username, String receiver) throws UnsupportedEncodingException {
-        final DefaultEmail email = DefaultEmail.builder()
-                .from(new InternetAddress("debal.felagi@gmail.com", "Debal's ADMIN"))
-                .to(Lists.newArrayList(new InternetAddress(receiver, username)))
-                .subject("I got someone for you")
-                .body("Dear " + ReceiverFullNameSession +  "\n" + SenderFullNameSession + " wants to rent your room."+ "\n"
-                 + "Please reply for this email if the room is still Available."+ "\n" +  "\n" + "Kindly Regards, " + "\n" + "DEBAL ADMIN")
-                .encoding("UTF-8").build();
-        emailService.send(email);
-    }
 }
