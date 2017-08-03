@@ -10,5 +10,8 @@ import java.util.List;
 public interface HouseRepository extends CrudRepository<House, Long> {
     List<House> findByZipCode(long zip);
     List<House> findByState (String State);
+    List<House> findByCity(String city);
+    List<House> findByZipCode(String zip);
+    List<House> findById(long id);
 
 }

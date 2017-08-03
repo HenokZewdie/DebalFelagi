@@ -1,0 +1,13 @@
+{
+  "w20-core": {
+    "modules": {
+      "application": {
+        "home": "/demo/home"
+      },
+      "security": {
+        "autoLogin": true
+      }
+    }
+  },
+  "demo": {}
+}

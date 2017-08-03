@@ -14,15 +14,14 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-
 //For Email Service
 import com.google.common.collect.Lists;
 import it.ozimov.springboot.mail.model.defaultimpl.DefaultEmail;
 import it.ozimov.springboot.mail.service.EmailService;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
 import javax.mail.internet.InternetAddress;
+
 
 @Controller
 public class HomeController {
@@ -36,7 +35,7 @@ public class HomeController {
     @Autowired
     private HouseRepository houseRepository;
     @Autowired
-            private CloudinaryConfig cloudc;
+    private CloudinaryConfig cloudc;
 
     String ReceiverFullNameSession, SenderFullNameSession;
 
@@ -94,6 +93,8 @@ public class HomeController {
             String filename = uploadResult.get("public_id").toString() + "." + uploadResult.get("format").toString();
             //String effect = p.getTitle();
             house.setPhoto("<img src='http://res.cloudinary.com/henokzewdie/image/upload/" +filename+"' width='200px'/>");
+            house.setDetailphoto("<img src='http://res.cloudinary.com/henokzewdie/image/upload/" +filename+"' width='500px'/>");
+
             //System.out.printf("%s\n", cloudc.createUrl(filename,900,900, "fit"));
 
         } catch (IOException e){
@@ -131,7 +132,14 @@ public class HomeController {
     }
     @RequestMapping(value = "/searchstate", method = RequestMethod.POST)
     public String searchstate(Model model,  House house){
-        List<House> zipList = houseRepository.findByState(house.getState());
+        String temp = house.getState();
+        List<House> zipList = houseRepository.findByState(temp);
+        if(zipList.isEmpty()){
+            zipList = houseRepository.findByCity(temp);
+            if(zipList.isEmpty()){
+                zipList = houseRepository.findByZipCode(Long.parseLong(house.getState()));
+            }
+        }
         model.addAttribute("houseList", zipList);
         return "/displaytemplate";
     }
@@ -153,6 +161,20 @@ public class HomeController {
         }
         model.addAttribute("houseList", zipSearch);
         return "/displaytemplate";
+    }
+    @RequestMapping(value = "/detailed/{id}", method = RequestMethod.GET)
+    public String detailedGet(@PathVariable("id") long id, Model model, User user){
+        model.addAttribute("user", new User());
+        model.addAttribute("house",new House());
+        String fullname= null;
+        Iterable<House> detailedList = houseRepository.findById(id);
+        for(House itr: detailedList){
+          user= userRepository.findByUsername(itr.getUsername());
+          fullname = user.getFullName();
+        }
+        model.addAttribute("detailedList", detailedList);
+        model.addAttribute("SessionName", fullname);
+        return "detailed";
     }
 
     @RequestMapping(value = "/email/{username}", method = RequestMethod.GET)
@@ -186,6 +208,4 @@ public class HomeController {
                 .encoding("UTF-8").build();
         emailService.send(email);
     }
-
-
 }

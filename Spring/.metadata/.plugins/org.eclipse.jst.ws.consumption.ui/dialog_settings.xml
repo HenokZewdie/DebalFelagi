@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="http://www.webservicex.net/country.asmx?WSDL"/>
+		<item value="http://www.webservicex.com/geoipservice.asmx?WSDL"/>
+		<item value="https://www.w3schools.com/xml/tempconvert.asmx?WSDL"/>
+	</list>
+</section>

@@ -1,0 +1,5 @@
+package net.codejava.spring.DAO;
+
+public class UserDaoImple {
+
+}

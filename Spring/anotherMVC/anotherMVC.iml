@@ -42,5 +42,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: cglib:cglib-nodep:2.2.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet.jsp:jsp-api:2.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
   </component>
 </module>

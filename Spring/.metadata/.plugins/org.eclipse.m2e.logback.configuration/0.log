@@ -1,0 +1,907 @@
+2017-06-19 10:48:48,204 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-19 10:50:18,479 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\HelloWorld\pom.xml.
+2017-06-19 10:50:18,825 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.5.4.RELEASE/spring-boot-starter-data-jpa-1.5.4.RELEASE.pom
+2017-06-19 10:50:18,858 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.5.4.RELEASE/spring-boot-starter-data-jpa-1.5.4.RELEASE.pom
+2017-06-19 10:50:19,058 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/1.5.4.RELEASE/spring-boot-starter-aop-1.5.4.RELEASE.pom
+2017-06-19 10:50:19,130 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/1.5.4.RELEASE/spring-boot-starter-aop-1.5.4.RELEASE.pom
+2017-06-19 10:50:19,162 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.pom
+2017-06-19 10:50:19,177 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.pom
+2017-06-19 10:50:19,201 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/1.5.4.RELEASE/spring-boot-starter-jdbc-1.5.4.RELEASE.pom
+2017-06-19 10:50:19,213 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/1.5.4.RELEASE/spring-boot-starter-jdbc-1.5.4.RELEASE.pom
+2017-06-19 10:50:19,239 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/8.5.15/tomcat-jdbc-8.5.15.pom
+2017-06-19 10:50:19,250 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/8.5.15/tomcat-jdbc-8.5.15.pom
+2017-06-19 10:50:19,267 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/8.5.15/tomcat-juli-8.5.15.pom
+2017-06-19 10:50:19,281 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/8.5.15/tomcat-juli-8.5.15.pom
+2017-06-19 10:50:19,298 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.9.RELEASE/spring-jdbc-4.3.9.RELEASE.pom
+2017-06-19 10:50:19,312 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.9.RELEASE/spring-jdbc-4.3.9.RELEASE.pom
+2017-06-19 10:50:19,328 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.9.RELEASE/spring-tx-4.3.9.RELEASE.pom
+2017-06-19 10:50:19,343 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.9.RELEASE/spring-tx-4.3.9.RELEASE.pom
+2017-06-19 10:50:19,359 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.pom
+2017-06-19 10:50:19,401 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.pom
+2017-06-19 10:50:19,433 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+2017-06-19 10:50:19,447 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+2017-06-19 10:50:19,465 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom
+2017-06-19 10:50:19,482 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom
+2017-06-19 10:50:19,504 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom
+2017-06-19 10:50:19,519 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom
+2017-06-19 10:50:19,536 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.pom
+2017-06-19 10:50:19,548 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.pom
+2017-06-19 10:50:19,563 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2017-06-19 10:50:19,588 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2017-06-19 10:50:19,609 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+2017-06-19 10:50:19,622 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+2017-06-19 10:50:19,638 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.pom
+2017-06-19 10:50:19,651 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.pom
+2017-06-19 10:50:19,666 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.pom
+2017-06-19 10:50:19,679 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.pom
+2017-06-19 10:50:19,697 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.pom
+2017-06-19 10:50:19,711 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.pom
+2017-06-19 10:50:19,728 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2017-06-19 10:50:19,739 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2017-06-19 10:50:19,759 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/1.11.4.RELEASE/spring-data-jpa-1.11.4.RELEASE.pom
+2017-06-19 10:50:19,773 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/1.11.4.RELEASE/spring-data-jpa-1.11.4.RELEASE.pom
+2017-06-19 10:50:19,790 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/1.9.4.RELEASE/spring-data-parent-1.9.4.RELEASE.pom
+2017-06-19 10:50:19,806 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/1.9.4.RELEASE/spring-data-parent-1.9.4.RELEASE.pom
+2017-06-19 10:50:19,823 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/1.13.4.RELEASE/spring-data-commons-1.13.4.RELEASE.pom
+2017-06-19 10:50:19,838 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/1.13.4.RELEASE/spring-data-commons-1.13.4.RELEASE.pom
+2017-06-19 10:50:19,856 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.9.RELEASE/spring-orm-4.3.9.RELEASE.pom
+2017-06-19 10:50:19,869 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.9.RELEASE/spring-orm-4.3.9.RELEASE.pom
+2017-06-19 10:50:19,887 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/4.3.9.RELEASE/spring-aspects-4.3.9.RELEASE.pom
+2017-06-19 10:50:19,900 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/4.3.9.RELEASE/spring-aspects-4.3.9.RELEASE.pom
+2017-06-19 10:50:19,917 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.4.RELEASE/spring-boot-starter-thymeleaf-1.5.4.RELEASE.pom
+2017-06-19 10:50:19,928 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.4.RELEASE/spring-boot-starter-thymeleaf-1.5.4.RELEASE.pom
+2017-06-19 10:50:20,031 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.pom
+2017-06-19 10:50:20,048 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.pom
+2017-06-19 10:50:20,068 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.pom
+2017-06-19 10:50:20,082 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.pom
+2017-06-19 10:50:20,100 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ognl/ognl/3.0.8/ognl-3.0.8.pom
+2017-06-19 10:50:20,113 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ognl/ognl/3.0.8/ognl-3.0.8.pom
+2017-06-19 10:50:20,133 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.pom
+2017-06-19 10:50:20,149 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.pom
+2017-06-19 10:50:20,170 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.4.0/thymeleaf-layout-dialect-1.4.0.pom
+2017-06-19 10:50:20,187 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.4.0/thymeleaf-layout-dialect-1.4.0.pom
+2017-06-19 10:50:20,208 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.11/groovy-2.4.11.pom
+2017-06-19 10:50:20,225 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.11/groovy-2.4.11.pom
+2017-06-19 10:50:20,433 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.5.4.RELEASE/spring-boot-starter-data-jpa-1.5.4.RELEASE.jar
+2017-06-19 10:50:20,447 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/1.5.4.RELEASE/spring-boot-starter-data-jpa-1.5.4.RELEASE.jar
+2017-06-19 10:50:20,457 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/1.5.4.RELEASE/spring-boot-starter-aop-1.5.4.RELEASE.jar
+2017-06-19 10:50:20,472 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/1.5.4.RELEASE/spring-boot-starter-aop-1.5.4.RELEASE.jar
+2017-06-19 10:50:20,487 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar
+2017-06-19 10:50:20,881 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar
+2017-06-19 10:50:20,890 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar
+2017-06-19 10:50:21,974 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar
+2017-06-19 10:50:21,989 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+2017-06-19 10:50:22,021 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+2017-06-19 10:50:22,034 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar
+2017-06-19 10:50:22,195 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar
+2017-06-19 10:50:22,208 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.jar
+2017-06-19 10:50:22,301 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.jar
+2017-06-19 10:50:22,314 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar
+2017-06-19 10:50:22,375 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar
+2017-06-19 10:50:22,389 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+2017-06-19 10:50:22,489 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+2017-06-19 10:50:22,500 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+2017-06-19 10:50:22,527 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+2017-06-19 10:50:22,542 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar
+2017-06-19 10:50:22,693 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar
+2017-06-19 10:50:22,705 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar
+2017-06-19 10:50:22,720 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar
+2017-06-19 10:50:22,737 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/1.11.4.RELEASE/spring-data-jpa-1.11.4.RELEASE.jar
+2017-06-19 10:50:22,804 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/1.11.4.RELEASE/spring-data-jpa-1.11.4.RELEASE.jar
+2017-06-19 10:50:22,828 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/1.13.4.RELEASE/spring-data-commons-1.13.4.RELEASE.jar
+2017-06-19 10:50:22,994 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/1.13.4.RELEASE/spring-data-commons-1.13.4.RELEASE.jar
+2017-06-19 10:50:23,007 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.9.RELEASE/spring-orm-4.3.9.RELEASE.jar
+2017-06-19 10:50:23,113 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.9.RELEASE/spring-orm-4.3.9.RELEASE.jar
+2017-06-19 10:50:23,125 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.9.RELEASE/spring-tx-4.3.9.RELEASE.jar
+2017-06-19 10:50:23,192 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.9.RELEASE/spring-tx-4.3.9.RELEASE.jar
+2017-06-19 10:50:23,204 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/4.3.9.RELEASE/spring-aspects-4.3.9.RELEASE.jar
+2017-06-19 10:50:23,221 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/4.3.9.RELEASE/spring-aspects-4.3.9.RELEASE.jar
+2017-06-19 10:50:23,232 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/1.5.4.RELEASE/spring-boot-starter-jdbc-1.5.4.RELEASE.jar
+2017-06-19 10:50:23,244 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/1.5.4.RELEASE/spring-boot-starter-jdbc-1.5.4.RELEASE.jar
+2017-06-19 10:50:23,256 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/8.5.15/tomcat-jdbc-8.5.15.jar
+2017-06-19 10:50:23,289 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/8.5.15/tomcat-jdbc-8.5.15.jar
+2017-06-19 10:50:23,301 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/8.5.15/tomcat-juli-8.5.15.jar
+2017-06-19 10:50:23,316 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/8.5.15/tomcat-juli-8.5.15.jar
+2017-06-19 10:50:23,335 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.9.RELEASE/spring-jdbc-4.3.9.RELEASE.jar
+2017-06-19 10:50:23,432 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.9.RELEASE/spring-jdbc-4.3.9.RELEASE.jar
+2017-06-19 10:50:23,440 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.4.RELEASE/spring-boot-starter-thymeleaf-1.5.4.RELEASE.jar
+2017-06-19 10:50:23,453 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/1.5.4.RELEASE/spring-boot-starter-thymeleaf-1.5.4.RELEASE.jar
+2017-06-19 10:50:23,463 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.jar
+2017-06-19 10:50:23,524 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/thymeleaf-spring4-2.1.5.RELEASE.jar
+2017-06-19 10:50:23,540 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.jar
+2017-06-19 10:50:23,706 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/2.1.5.RELEASE/thymeleaf-2.1.5.RELEASE.jar
+2017-06-19 10:50:23,723 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ognl/ognl/3.0.8/ognl-3.0.8.jar
+2017-06-19 10:50:23,775 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ognl/ognl/3.0.8/ognl-3.0.8.jar
+2017-06-19 10:50:23,787 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar
+2017-06-19 10:50:23,827 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/unbescape/unbescape/1.1.0.RELEASE/unbescape-1.1.0.RELEASE.jar
+2017-06-19 10:50:23,840 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.4.0/thymeleaf-layout-dialect-1.4.0.jar
+2017-06-19 10:50:23,877 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/1.4.0/thymeleaf-layout-dialect-1.4.0.jar
+2017-06-19 10:50:23,896 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.11/groovy-2.4.11.jar
+2017-06-19 10:50:24,890 [Worker-9] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.11/groovy-2.4.11.jar
+2017-06-19 10:50:27,450 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/main/java
+2017-06-19 10:50:27,450 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld/src/main/resources
+2017-06-19 10:50:27,458 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld/src/main/resources
+2017-06-19 10:50:27,469 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/test/java
+2017-06-19 10:50:28,316 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2017-06-19 10:50:28,319 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-19 10:50:28,874 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HelloWorld:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\HelloWorld\pom.xml.
+2017-06-19 10:50:29,702 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/main/java
+2017-06-19 10:50:29,703 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld/src/main/resources
+2017-06-19 10:50:29,704 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloWorld/src/main/resources
+2017-06-19 10:50:29,706 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloWorld/src/test/java
+2017-06-19 10:50:30,011 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-19 10:50:33,851 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-19 10:50:33,857 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-19 10:50:33,865 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-19 10:50:33,868 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-19 10:50:33,869 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloWorld\src\test\resources
+2017-06-20 07:49:20,864 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:49:20,872 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:49:20,878 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:49:20,880 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:49:20,880 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloWorld\src\test\resources
+2017-06-20 07:50:59,734 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:50:59,749 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:50:59,755 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:50:59,759 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:50:59,759 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloWorld\src\test\resources
+2017-06-20 07:52:24,210 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HelloNew:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\pom.xml.
+2017-06-20 07:52:25,271 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloNew/src/main/java
+2017-06-20 07:52:25,271 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloNew/src/main/resources
+2017-06-20 07:52:25,280 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloNew/src/main/resources
+2017-06-20 07:52:25,291 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloNew/src/test/java
+2017-06-20 07:52:25,565 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2017-06-20 07:52:25,566 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-20 07:52:26,074 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HelloNew:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\pom.xml.
+2017-06-20 07:52:26,724 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloNew/src/main/java
+2017-06-20 07:52:26,724 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloNew/src/main/resources
+2017-06-20 07:52:26,727 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HelloNew/src/main/resources
+2017-06-20 07:52:26,732 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HelloNew/src/test/java
+2017-06-20 07:52:26,921 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-20 07:52:28,191 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:52:28,192 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:52:28,205 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:52:28,208 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:52:28,209 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:52:45,995 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:52:46,008 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:52:46,012 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:52:46,020 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:52:46,021 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:53:15,781 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HelloNew:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\pom.xml.
+2017-06-20 07:53:18,135 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/aggregate/jetty-all/9.2.13.v20150730/jetty-all-9.2.13.v20150730.pom
+2017-06-20 07:53:18,155 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/aggregate/jetty-all/9.2.13.v20150730/jetty-all-9.2.13.v20150730.pom
+2017-06-20 07:53:18,171 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.13.v20150730/jetty-project-9.2.13.v20150730.pom
+2017-06-20 07:53:18,199 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.13.v20150730/jetty-project-9.2.13.v20150730.pom
+2017-06-20 07:53:18,218 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/23/jetty-parent-23.pom
+2017-06-20 07:53:18,233 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/23/jetty-parent-23.pom
+2017-06-20 07:53:18,250 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.pom
+2017-06-20 07:53:18,264 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.pom
+2017-06-20 07:53:18,280 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-all/1.0/javax.websocket-all-1.0.pom
+2017-06-20 07:53:18,293 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-all/1.0/javax.websocket-all-1.0.pom
+2017-06-20 07:53:18,308 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/4/jvnet-parent-4.pom
+2017-06-20 07:53:18,320 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/4/jvnet-parent-4.pom
+2017-06-20 07:53:18,337 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2017-06-20 07:53:18,352 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2017-06-20 07:53:18,439 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/aggregate/jetty-all/9.2.13.v20150730/jetty-all-9.2.13.v20150730.jar
+2017-06-20 07:53:18,982 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/aggregate/jetty-all/9.2.13.v20150730/jetty-all-9.2.13.v20150730.jar
+2017-06-20 07:53:18,996 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar
+2017-06-20 07:53:19,018 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar
+2017-06-20 07:53:19,034 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2017-06-20 07:53:19,063 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2017-06-20 07:53:19,610 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:53:19,613 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:53:19,614 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:53:19,621 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:53:19,621 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:53:22,605 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:53:22,607 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:53:22,621 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:53:22,622 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:53:22,623 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:53:54,584 [Worker-40] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HelloNew:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\pom.xml.
+2017-06-20 07:53:55,003 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:53:55,005 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:53:55,006 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:53:55,009 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:53:55,009 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:53:57,220 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:53:57,222 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:53:57,232 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:53:57,234 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:53:57,234 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:54:52,934 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:54:52,938 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:54:52,941 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:54:52,944 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:54:52,945 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:57:18,025 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE-sources.jar
+2017-06-20 07:57:18,193 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE-sources.jar
+2017-06-20 07:57:18,232 [Worker-34] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.3.9.RELEASE
+2017-06-20 07:57:18,573 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:57:18,574 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:57:18,574 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:57:18,576 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:57:18,577 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:59:24,254 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:59:24,255 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:59:24,260 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:59:24,262 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:59:24,263 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 07:59:57,804 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:59:57,805 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 07:59:57,807 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 07:59:57,810 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 07:59:57,810 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:05:01,625 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:05:01,628 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:05:01,632 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:05:01,634 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:05:01,634 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:07:35,765 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:07:35,769 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:07:35,773 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:07:35,789 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:07:35,789 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:07:50,786 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:07:50,788 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:07:50,791 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:07:50,793 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:07:50,793 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:09:32,417 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:09:32,419 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:09:32,421 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:09:32,424 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:09:32,424 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:11:49,806 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:11:49,811 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:11:49,814 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:11:49,816 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:11:49,816 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:12:16,994 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:12:16,995 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:12:16,997 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:12:16,999 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:12:16,999 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:12:21,941 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:12:21,943 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:12:21,946 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:12:21,951 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:12:21,951 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:14:03,564 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:14:03,566 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:14:03,569 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:14:03,571 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:14:03,571 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:14:47,356 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:14:47,357 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:14:47,360 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:14:47,362 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:14:47,362 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:25:35,882 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:25:35,883 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:25:35,885 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:25:35,888 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:25:35,888 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 08:25:41,056 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:25:41,060 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 08:25:41,062 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 08:25:41,064 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 08:25:41,065 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 20:07:31,995 [Worker-66] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\demo\pom.xml.
+2017-06-20 20:07:32,745 [Worker-66] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2017-06-20 20:07:32,746 [Worker-66] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2017-06-20 20:07:32,752 [Worker-66] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2017-06-20 20:07:32,761 [Worker-66] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2017-06-20 20:07:33,019 [Worker-66] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-06-20 20:07:33,021 [Worker-66] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-20 20:07:33,295 [Worker-66] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\demo\pom.xml.
+2017-06-20 20:07:33,842 [Worker-66] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2017-06-20 20:07:33,843 [Worker-66] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2017-06-20 20:07:33,844 [Worker-66] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2017-06-20 20:07:33,848 [Worker-66] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2017-06-20 20:07:33,997 [Worker-66] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-06-20 20:07:35,212 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:07:35,213 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:07:35,214 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:07:35,216 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:07:35,216 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:09:19,878 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:09:19,879 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:09:19,883 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:09:19,886 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:09:19,886 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:09:45,472 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:09:45,474 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:09:45,477 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:09:45,478 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:09:45,479 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:11:36,234 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:11:36,235 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:11:36,237 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:11:36,239 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:11:36,239 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:11:45,662 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:11:45,663 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:11:45,670 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:11:45,672 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:11:45,672 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:12:22,838 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:12:22,838 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:12:22,838 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:12:22,839 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:12:22,840 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:13:06,100 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:13:06,102 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:13:06,104 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:13:06,107 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:13:06,107 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:13:26,370 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:13:26,372 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:13:26,376 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:13:26,379 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:13:26,379 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:13:30,555 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:13:30,557 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:13:30,559 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:13:30,561 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:13:30,561 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:16:10,466 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:16:10,468 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:16:10,471 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:16:10,474 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:16:10,474 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:16:37,565 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:16:37,566 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:16:37,567 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:16:37,572 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:16:37,572 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:16:48,228 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:16:48,228 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:16:48,229 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:16:48,232 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:16:48,232 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:17:00,941 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:17:00,941 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:17:00,942 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:17:00,948 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:17:00,948 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:17:14,603 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:17:14,604 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:17:14,604 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:17:14,608 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:17:14,608 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:18:21,367 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:18:21,368 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:18:21,368 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:18:21,374 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:18:21,375 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:20:55,606 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:20:55,606 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:20:55,607 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:20:55,608 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:20:55,609 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 20:20:55,618 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:20:55,619 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:20:55,619 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:20:55,621 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:20:55,622 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:23:55,698 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-20 20:24:01,711 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HelloNew:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\pom.xml.
+2017-06-20 20:24:02,718 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\demo\pom.xml.
+2017-06-20 20:24:06,823 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:24:06,830 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:24:06,845 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:24:06,849 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:24:06,849 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-20 20:24:08,688 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:24:08,689 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:24:08,691 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:24:08,734 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:24:08,734 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:24:55,052 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:24:55,055 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:24:55,056 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:24:55,058 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:24:55,058 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:27:04,443 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:27:04,450 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:27:04,453 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:27:04,456 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:27:04,456 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:30:02,371 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:30:02,378 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:30:02,386 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:30:02,399 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:30:02,400 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:30:24,224 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:30:24,226 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:30:24,229 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:30:24,233 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:30:24,233 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:32:07,252 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:32:07,252 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:32:07,253 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:32:07,258 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:32:07,258 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:34:30,810 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:34:30,812 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:34:30,815 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:34:30,821 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:34:30,821 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:46:55,569 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:46:55,570 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:46:55,570 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:46:55,575 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:46:55,575 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:47:00,396 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:47:00,398 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:47:00,401 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:47:00,403 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:47:00,403 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:48:35,532 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:48:35,536 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:48:35,539 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:48:35,542 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:48:35,542 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:48:43,367 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:48:43,367 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:48:43,368 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:48:43,374 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:48:43,374 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:50:06,884 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:50:06,887 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:50:06,889 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:50:06,892 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:50:06,892 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:50:20,822 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:50:20,823 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:50:20,823 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:50:20,827 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:50:20,828 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:51:33,535 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:51:33,537 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:51:33,539 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:51:33,541 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:51:33,541 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:51:42,681 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:51:42,683 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:51:42,687 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:51:42,691 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:51:42,691 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:52:24,622 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:52:24,624 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:52:24,627 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:52:24,629 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:52:24,629 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:52:47,659 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:52:47,660 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:52:47,663 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:52:47,665 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:52:47,665 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:52:54,296 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:52:54,297 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:52:54,297 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:52:54,301 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:52:54,301 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:58:13,111 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:58:13,111 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 20:58:13,112 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:58:13,118 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:58:13,118 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 20:58:25,190 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:58:25,192 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 20:58:25,195 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 20:58:25,198 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 20:58:25,198 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:00:15,360 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:00:15,361 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:00:15,361 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:00:15,364 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:00:15,365 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:00:17,919 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:00:17,921 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:00:17,924 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:00:17,929 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:00:17,929 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:00:46,711 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:00:46,713 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:00:46,716 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:00:46,719 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:00:46,720 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:00:53,602 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:00:53,602 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:00:53,602 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:00:53,606 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:00:53,606 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:01:43,724 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:01:43,725 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:01:43,725 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:01:43,730 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:01:43,730 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:02:07,501 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:02:07,502 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:02:07,502 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:02:07,508 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:02:07,508 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:02:23,884 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:02:23,884 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:02:23,885 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:02:23,888 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:02:23,889 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:03:04,558 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:03:04,559 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:03:04,559 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:03:04,564 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:03:04,564 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:03:53,448 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:03:53,448 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:03:53,449 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:03:53,453 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:03:53,453 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:04:04,091 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:04:04,093 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:04:04,098 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:04:04,101 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:04:04,101 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:04:16,533 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:04:16,534 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:04:16,535 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:04:16,542 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:04:16,543 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:05:37,029 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:05:37,031 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:05:37,033 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:05:37,038 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:05:37,039 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-20 21:34:48,910 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:potLuck:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\pom.xml.
+2017-06-20 21:34:49,702 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /potLuck/src/main/java
+2017-06-20 21:34:49,703 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /potLuck/src/main/resources
+2017-06-20 21:34:49,710 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /potLuck/src/main/resources
+2017-06-20 21:34:49,720 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /potLuck/src/test/java
+2017-06-20 21:34:50,054 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-06-20 21:34:50,058 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-20 21:34:50,311 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:potLuck:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\pom.xml.
+2017-06-20 21:34:50,859 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /potLuck/src/main/java
+2017-06-20 21:34:50,859 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /potLuck/src/main/resources
+2017-06-20 21:34:50,862 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /potLuck/src/main/resources
+2017-06-20 21:34:50,868 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /potLuck/src/test/java
+2017-06-20 21:34:51,111 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-20 21:53:09,640 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:potLuck:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\pom.xml.
+2017-06-20 21:53:10,132 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-solr/1.5.4.RELEASE/spring-boot-starter-data-solr-1.5.4.RELEASE.pom
+2017-06-20 21:53:10,161 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-solr/1.5.4.RELEASE/spring-boot-starter-data-solr-1.5.4.RELEASE.pom
+2017-06-20 21:53:10,189 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/solr/solr-solrj/5.5.4/solr-solrj-5.5.4.pom
+2017-06-20 21:53:10,212 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/solr/solr-solrj/5.5.4/solr-solrj-5.5.4.pom
+2017-06-20 21:53:10,235 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/solr/solr-parent/5.5.4/solr-parent-5.5.4.pom
+2017-06-20 21:53:10,258 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/solr/solr-parent/5.5.4/solr-parent-5.5.4.pom
+2017-06-20 21:53:10,283 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-solr-grandparent/5.5.4/lucene-solr-grandparent-5.5.4.pom
+2017-06-20 21:53:10,417 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-solr-grandparent/5.5.4/lucene-solr-grandparent-5.5.4.pom
+2017-06-20 21:53:10,446 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2017-06-20 21:53:10,465 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2017-06-20 21:53:10,492 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2017-06-20 21:53:10,514 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2017-06-20 21:53:10,545 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.pom
+2017-06-20 21:53:10,564 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.pom
+2017-06-20 21:53:10,585 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.3/httpcomponents-client-4.5.3.pom
+2017-06-20 21:53:10,603 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.3/httpcomponents-client-4.5.3.pom
+2017-06-20 21:53:10,624 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
+2017-06-20 21:53:10,684 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
+2017-06-20 21:53:10,709 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom
+2017-06-20 21:53:10,727 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom
+2017-06-20 21:53:10,752 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
+2017-06-20 21:53:10,770 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
+2017-06-20 21:53:10,797 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.pom
+2017-06-20 21:53:10,815 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.pom
+2017-06-20 21:53:10,842 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.pom
+2017-06-20 21:53:10,921 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.pom
+2017-06-20 21:53:10,958 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom
+2017-06-20 21:53:10,977 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom
+2017-06-20 21:53:10,995 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.pom
+2017-06-20 21:53:11,015 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.pom
+2017-06-20 21:53:11,033 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/noggit/noggit/0.6/noggit-0.6.pom
+2017-06-20 21:53:11,062 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/noggit/noggit/0.6/noggit-0.6.pom
+2017-06-20 21:53:11,079 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-solr/2.1.4.RELEASE/spring-data-solr-2.1.4.RELEASE.pom
+2017-06-20 21:53:11,095 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-solr/2.1.4.RELEASE/spring-data-solr-2.1.4.RELEASE.pom
+2017-06-20 21:53:11,133 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom
+2017-06-20 21:53:11,164 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom
+2017-06-20 21:53:11,192 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+2017-06-20 21:53:11,245 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+2017-06-20 21:53:11,302 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+2017-06-20 21:53:11,344 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom
+2017-06-20 21:53:11,381 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom
+2017-06-20 21:53:11,405 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom
+2017-06-20 21:53:11,468 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom
+2017-06-20 21:53:11,555 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/15/apache-15.pom
+2017-06-20 21:53:11,672 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-solr/1.5.4.RELEASE/spring-boot-starter-data-solr-1.5.4.RELEASE.jar
+2017-06-20 21:53:11,691 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-solr/1.5.4.RELEASE/spring-boot-starter-data-solr-1.5.4.RELEASE.jar
+2017-06-20 21:53:11,716 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/solr/solr-solrj/5.5.4/solr-solrj-5.5.4.jar
+2017-06-20 21:53:11,867 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/solr/solr-solrj/5.5.4/solr-solrj-5.5.4.jar
+2017-06-20 21:53:11,887 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2017-06-20 21:53:11,928 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2017-06-20 21:53:11,946 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar
+2017-06-20 21:53:12,094 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar
+2017-06-20 21:53:12,113 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+2017-06-20 21:53:12,174 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+2017-06-20 21:53:12,200 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar
+2017-06-20 21:53:12,334 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar
+2017-06-20 21:53:12,353 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+2017-06-20 21:53:12,400 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar
+2017-06-20 21:53:12,420 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar
+2017-06-20 21:53:12,512 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar
+2017-06-20 21:53:12,526 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/noggit/noggit/0.6/noggit-0.6.jar
+2017-06-20 21:53:12,550 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/noggit/noggit/0.6/noggit-0.6.jar
+2017-06-20 21:53:12,584 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-solr/2.1.4.RELEASE/spring-data-solr-2.1.4.RELEASE.jar
+2017-06-20 21:53:12,663 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-solr/2.1.4.RELEASE/spring-data-solr-2.1.4.RELEASE.jar
+2017-06-20 21:53:12,689 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+2017-06-20 21:53:12,745 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+2017-06-20 21:53:12,764 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar
+2017-06-20 21:53:12,808 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar
+2017-06-20 21:53:13,514 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:53:13,514 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:53:13,516 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:53:13,526 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:53:13,527 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 21:53:23,494 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:53:23,499 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:53:23,502 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:53:23,513 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:53:23,514 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 21:53:57,710 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:53:57,711 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:53:57,712 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:53:57,714 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:53:57,714 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 21:55:59,126 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:55:59,127 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 21:55:59,127 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:55:59,134 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:55:59,134 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 21:58:12,381 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:58:12,383 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:58:12,386 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:58:12,392 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:58:12,393 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 21:59:05,685 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:59:05,685 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 21:59:05,689 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 21:59:05,695 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 21:59:05,695 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:00:17,502 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:00:17,503 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:00:17,506 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:00:17,514 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:00:17,514 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:02:08,759 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:02:08,761 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:02:08,764 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:02:08,770 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:02:08,770 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:03:53,459 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:03:53,460 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:03:53,462 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:03:53,467 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:03:53,468 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:06:18,104 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:06:18,105 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:06:18,106 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:06:18,113 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:06:18,113 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:06:57,525 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:06:57,527 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:06:57,530 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:06:57,541 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:06:57,542 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:07:42,801 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:07:42,802 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:07:42,803 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:07:42,805 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:07:42,805 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:08:39,718 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:08:39,718 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 22:08:39,719 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:08:39,724 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:08:39,724 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:09:19,310 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:09:19,312 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:09:19,315 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:09:19,317 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:09:19,318 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:10:56,998 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:10:56,998 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 22:10:56,999 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:10:57,004 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:10:57,004 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:14:59,829 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:14:59,830 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:14:59,832 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:14:59,836 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:14:59,837 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:23:45,762 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:23:45,763 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:23:45,765 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:23:45,767 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:23:45,767 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:25:33,087 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:25:33,089 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:25:33,091 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:25:33,094 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:25:33,094 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:43:14,482 [Worker-45] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:CrudTest:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\CrudTest\pom.xml.
+2017-06-20 22:43:14,785 [Worker-45] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.42/mysql-connector-java-5.1.42.pom
+2017-06-20 22:43:14,808 [Worker-45] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.42/mysql-connector-java-5.1.42.pom
+2017-06-20 22:43:14,994 [Worker-45] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.42/mysql-connector-java-5.1.42.jar
+2017-06-20 22:43:15,328 [Worker-45] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.42/mysql-connector-java-5.1.42.jar
+2017-06-20 22:43:15,679 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CrudTest/src/main/java
+2017-06-20 22:43:15,679 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CrudTest/src/main/resources
+2017-06-20 22:43:15,684 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CrudTest/src/main/resources
+2017-06-20 22:43:15,691 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CrudTest/src/test/java
+2017-06-20 22:43:15,921 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-06-20 22:43:15,923 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-20 22:43:16,182 [Worker-45] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:CrudTest:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\CrudTest\pom.xml.
+2017-06-20 22:43:16,794 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CrudTest/src/main/java
+2017-06-20 22:43:16,794 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CrudTest/src/main/resources
+2017-06-20 22:43:16,796 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CrudTest/src/main/resources
+2017-06-20 22:43:16,799 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CrudTest/src/test/java
+2017-06-20 22:43:16,972 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-06-20 22:52:25,131 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:52:25,132 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:52:25,135 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-20 22:52:25,137 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:52:25,137 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-20 22:56:39,329 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:56:39,329 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-20 22:56:39,330 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-20 22:56:39,332 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-20 22:56:39,332 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\CrudTest\src\test\resources
+2017-06-21 07:43:27,156 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-21 07:44:09,801 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 07:44:09,806 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 07:44:09,816 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 07:44:09,823 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 07:44:09,824 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 07:59:36,153 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 07:59:36,163 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 07:59:36,173 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 07:59:36,184 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 07:59:36,185 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:01:29,051 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:01:29,054 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:01:29,057 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:01:29,059 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:01:29,060 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:02:43,096 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:02:43,098 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:02:43,130 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:02:43,134 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:02:43,135 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:03:35,289 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:03:35,291 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:03:35,294 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:03:35,297 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:03:35,297 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:06:00,603 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:06:00,605 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:06:00,607 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:06:00,610 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:06:00,610 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:07:03,384 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:07:03,386 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:07:03,389 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:07:03,392 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:07:03,392 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:09:42,035 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:09:42,038 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:09:42,041 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:09:42,047 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:09:42,048 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:10:01,959 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:CrudTest:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\CrudTest\pom.xml.
+2017-06-21 08:10:02,485 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:10:02,485 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:10:02,487 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-21 08:10:02,488 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:10:02,489 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\CrudTest\src\test\resources
+2017-06-21 08:10:03,294 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:10:03,295 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:10:03,296 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-21 08:10:03,300 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:10:03,300 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HelloNew\src\test\resources
+2017-06-21 08:10:04,230 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:10:04,231 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:10:04,233 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:10:04,242 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:10:04,242 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\demo\src\test\resources
+2017-06-21 08:10:04,598 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:10:04,599 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:10:04,600 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:10:04,608 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:10:04,609 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:20:25,672 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:20:25,674 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:20:25,678 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:20:25,692 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:20:25,693 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:28:45,405 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:28:45,410 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:28:45,414 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-21 08:28:45,418 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:28:45,418 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:29:57,819 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:29:57,821 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:29:57,825 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:29:57,831 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:29:57,832 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:30:38,739 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:30:38,741 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:30:38,746 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:30:38,750 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:30:38,751 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:33:14,217 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:33:14,219 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:33:14,222 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:33:14,225 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:33:14,226 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:42:28,082 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:42:28,084 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:42:28,087 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:42:28,090 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:42:28,091 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:43:38,631 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:43:38,633 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:43:38,636 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:43:38,641 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:43:38,643 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:44:20,122 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:44:20,124 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:44:20,128 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:44:20,133 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:44:20,133 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:45:48,301 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:45:48,303 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:45:48,307 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:45:48,313 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:45:48,313 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:49:53,515 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:49:53,517 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:49:53,520 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:49:53,522 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:49:53,522 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:50:15,374 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:50:15,376 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:50:15,378 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:50:15,381 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:50:15,381 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-21 08:56:02,650 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:56:02,653 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-21 08:56:02,656 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-06-21 08:56:02,660 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-21 08:56:02,660 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\potLuck\src\test\resources
+2017-06-22 04:27:52,036 [Worker-83] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-22 04:27:52,782 [Worker-83] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\Meeliana\Documents\GitHub\Spring\HouseRent\pom.xml.
+2017-06-22 04:27:54,001 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HouseRent/src/main/java
+2017-06-22 04:27:54,006 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HouseRent/src/main/resources
+2017-06-22 04:27:54,014 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HouseRent/src/main/resources
+2017-06-22 04:27:54,030 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HouseRent/src/test/java
+2017-06-22 04:27:54,741 [Worker-83] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-06-22 04:28:29,977 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 04:28:29,978 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-22 04:28:29,990 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-06-22 04:28:30,000 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 04:28:30,000 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HouseRent\src\test\resources
+2017-06-22 04:30:21,124 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 04:30:21,126 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-06-22 04:30:21,127 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-22 04:30:21,129 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-22 04:30:21,130 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Meeliana\Documents\GitHub\Spring\HouseRent\src\test\resources
+2017-06-29 19:29:49,976 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-02 17:19:55,571 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-02 17:39:38,480 [JavaFX Application Thread] INFO  org.eclipse.jetty.util.log - Logging initialized @1202804ms
+2017-07-02 17:39:38,821 [JavaFX Application Thread] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-07-02 17:39:38,933 [JavaFX Application Thread] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@79d8d3af{/wse,null,AVAILABLE}
+2017-07-02 17:39:38,957 [JavaFX Application Thread] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4383984e{HTTP/1.1,[http/1.1]}{0.0.0.0:58313}
+2017-07-02 17:39:38,957 [JavaFX Application Thread] INFO  org.eclipse.jetty.server.Server - Started @1203281ms
+2017-07-02 21:17:18,481 [Framework stop] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4383984e{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+2017-07-02 21:17:18,548 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@79d8d3af{/wse,null,UNAVAILABLE}
+2017-07-04 14:31:14,582 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-05 08:30:14,884 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-07 14:49:06,541 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-09 00:34:53,040 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://helloWorldWS" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://helloWorldWS" xmlns:intf="http://helloWorldWS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://helloWorldWS" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="toHello">
+    <complexType>
+     <sequence>
+      <element name="name" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="toHelloResponse">
+    <complexType>
+     <sequence>
+      <element name="toHelloReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="toHelloResponse">
+
+      <wsdl:part element="impl:toHelloResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="toHelloRequest">
+
+      <wsdl:part element="impl:toHello" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="HelloWS">
+
+      <wsdl:operation name="toHello">
+
+         <wsdl:input message="impl:toHelloRequest" name="toHelloRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:toHelloResponse" name="toHelloResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="HelloWSSoapBinding" type="impl:HelloWS">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="toHello">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="toHelloRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="toHelloResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="HelloWSService">
+
+      <wsdl:port binding="impl:HelloWSSoapBinding" name="HelloWS">
+
+         <wsdlsoap:address location="http://localhost:8080/helloWorldWS/services/HelloWS"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

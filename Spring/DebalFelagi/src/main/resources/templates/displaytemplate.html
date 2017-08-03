@@ -5,61 +5,32 @@
 <head th:replace="base :: Mena">
     <meta charset="UTF-8" />
     <title>Title</title>
+
 </head>
-<body background="/resources/Images/bg.jpg">
+<body>
 <div class="container">
             <nav class="navbar navbar-default" th:replace="base::navi"> </nav>
-        <table>
-        <tr><h2 style="color:brown; font-family: 'Footlight MT Light'" align="center">Search by State or Another ZIP</h2></tr>
-            <tr><form th:action="@{/searchstate}" th:object="${house}"  method="post" >
 
-            <td><div class="col-md-4"><h4 style="color:brown; font-family: 'Footlight MT Light'">State</h4></div></td>
-            <td><input type="text" th:field="*{state}" id="state" class="form-control" placeholder="Enter 2 Character State" /></td>
-                <td><button type="submit" class="btn btn-primary">Search</button></td>
-        </form></tr>
-
-            <tr>
-        <form th:action="@{/searchzip}" th:object="${house}"  method="post" >
-
-            <td><div class="col-md-4"><h4 style="color:brown; font-family: 'Footlight MT Light'">ZIP Code</h4></div></td>
-            <td><input type="text" th:field="*{zipCode}" id="zip" class="form-control" placeholder="ZIP Code" /></td>
-           <td><button type="submit" class="btn btn-primary">Search</button></td>
-        </form>
-            </tr>
-        </table>
-
-        <table class="table table-hover">
-
-          <!--  <tr>
-                <th>Street</th>
-                <th>City</th>
-                <th>State</th>
-                <th>ZIP Code</th>
-                <th>Type</th>
-                <th>Price</th>
-                <th>Photo</th>
-
-            </tr>-->
+        <table class="table table-hover" >
 
             <tr th:each="loopin : ${houseList}">
-                <td><h5 style="color:brown; font-family: Tahoma" align="left"  th:utext = "${loopin.photo}" />"></h5></td>
-                <td><h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.type}"></h6></td>
+                <td th:utext = "${loopin.photo}" th:border="1" />"></h5></td>
+                <td><h6 style="font-family: 'Sansation'; font-size: 16px; color: black"  th:text = "${loopin.type}"></h6></td>
                 <td>
-                <h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.street}"></h6>
-                <h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.state}"></h6>
-                <h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.city}"></h6>
-                <h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.zipCode}"></h6>
+                <h6 style="font-family: 'Sansation'; font-size: 16px; color: black"  th:text = "${loopin.street}" ></h6>
+                <h6 style="font-family: 'Sansation'; font-size: 16px; color: black"  th:text = "${loopin.city}"></h6>
+                <h6 style="font-family: 'Sansation'; font-size: 16px; color: black"  th:text = "${loopin.state}"></h6>
+                <h6 style="font-family: 'Sansation'; font-size: 16px; color: black"  th:text = "${loopin.zipCode}"></h6>
                 </td>
 
-
-                <td><h6 style="color:brown; font-family: Tahoma" align="left"  th:text = "${loopin.price}"></h6>$</td>
+                $<td style="font-family: 'Sansation'; font-size: 16px; color: black"  th:text = "${loopin.price}" ></td>
 
                 <td>
-                <a th:href="@{email/{username}(username=${loopin.username})}">  <button type="button" class="btn btn-primary">Check Availability</button></a>
+                <a th:href="@{/detailed/{id} (id=${loopin.id})}"> <button type="button" class="btn btn-primary">Check Availability</button></a>
                 </td>
-                <td>
-                     <button type="button" class="btn btn-primary">SMS</button></a>
-                </td>
+               <!-- <td>
+                    <a th:href="@{email/{username}(username=${loopin.username})}">  <button type="button" class="btn btn-primary">Check Availability</button></a>
+                </td>-->
                     <!--<td th:text = "${#dates.format(mylink.date, 'MMM-dd-yyyy')}"></td>  #dates.format(sprint.releaseDate, 'dd-MMM-yyyy')-->
             </tr>
 

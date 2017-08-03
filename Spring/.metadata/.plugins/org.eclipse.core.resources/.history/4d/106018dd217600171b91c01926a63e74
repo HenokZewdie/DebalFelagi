@@ -1,0 +1,5 @@
+package anotherMVC.anotherMVC.model;
+
+public class Employee {
+
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/Downloads/Maven/javax.servlet-api-4.0.0-b01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/Downloads/Maven/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/Downloads/Maven/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/Downloads/apache-tomcat-9.0.0.M17/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/Documents/GitHub/Spring/HelloMaven1/WebContent/WEB-INF/lib/spring-context-3.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/.m2/repository/org/springframework/spring-web/3.1.0.RELEASE/spring-web-3.1.0.RELEASE.jar" sourcepath="C:/Users/Meeliana/.m2/repository/org/springframework/spring-web/3.1.0.RELEASE/spring-web-3.1.0.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="spring-web-3.1.0.RELEASE.jar"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-web"/>
+			<attribute name="maven.version" value="3.1.0.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/Documents/GitHub/Spring/HelloMaven1/WebContent/WEB-INF/lib/spring-webmvc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/.m2/repository/org/springframework/spring-context/3.1.0.RELEASE/spring-context-3.1.0.RELEASE.jar" sourcepath="C:/Users/Meeliana/.m2/repository/org/springframework/spring-context/3.1.0.RELEASE/spring-context-3.1.0.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="spring-context-3.1.0.RELEASE.jar"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-context"/>
+			<attribute name="maven.version" value="3.1.0.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/.m2/repository/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-context"/>
+			<attribute name="maven.version" value="4.3.10.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/.m2/repository/org/springframework/spring-webmvc/3.1.0.RELEASE/spring-webmvc-3.1.0.RELEASE.jar" sourcepath="C:/Users/Meeliana/.m2/repository/org/springframework/spring-webmvc/3.1.0.RELEASE/spring-webmvc-3.1.0.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="spring-webmvc-3.1.0.RELEASE.jar"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-webmvc"/>
+			<attribute name="maven.version" value="3.1.0.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/.m2/repository/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-webmvc"/>
+			<attribute name="maven.version" value="4.3.10.RELEASE"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Meeliana/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar" sourcepath="C:/Users/Meeliana/.m2/repository/net/minidev/json-smart/2.2.1/json-smart-2.2.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="net.minidev"/>
+			<attribute name="maven.artifactId" value="json-smart"/>
+			<attribute name="maven.version" value="2.2.1"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

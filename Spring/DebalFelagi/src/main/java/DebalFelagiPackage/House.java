@@ -28,6 +28,7 @@ public class House {
 
     private String duration;
     private String photo;
+    private String detailphoto;
     private double price;
     private long phone;
     private String remark;
@@ -153,5 +154,12 @@ public class House {
 
     public void setPhoto(String photo) {
         this.photo = photo;
+    }
+
+    public String getDetailphoto() {
+        return detailphoto;
+    }
+    public void setDetailphoto(String detailphoto) {
+        this.detailphoto = detailphoto;
     }
 }
