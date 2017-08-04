@@ -42,7 +42,7 @@ public class HomeController {
     @Autowired
     private NotificationRepository notificationRepository;
 
-    String ReceiverFullNameSession, SenderFullNameSession, Sessionfullname, sessionUsername, fromSession, toSession, messageSession;
+    String Sessionfullname, sessionUsername, fromSession, toSession, messageSession, stateSession;
 
     @RequestMapping("/")
     public String index(Model model, House house)
@@ -150,10 +150,10 @@ public class HomeController {
     public String searchstate(Model model,  House house){
         model.addAttribute("messagesend", new MessageSend());
         model.addAttribute("notify", new Notification());
-        String temp = house.getState();
-        List<House> zipList = houseRepository.findByState(temp);
+        stateSession = house.getState();
+        List<House> zipList = houseRepository.findByState(stateSession);
         if(zipList.isEmpty()){
-            zipList = houseRepository.findByCity(temp);
+            zipList = houseRepository.findByCity(stateSession);
             if(zipList.isEmpty()){
                 zipList = houseRepository.findByZipCode(Long.parseLong(house.getState()));
             }
@@ -186,14 +186,18 @@ public class HomeController {
         model.addAttribute("house",new House());
         model.addAttribute("messagesender", new MessageSend());
         Sessionfullname= null;
+        String aptType = null;
         Iterable<House> detailedList = houseRepository.findById(id);
         for(House itr: detailedList){
           user= userRepository.findByUsername(itr.getUsername());
             Sessionfullname = user.getFullName();
             sessionUsername = user.getUsername();
+             aptType = itr.getType();
         }
         model.addAttribute("detailedList", detailedList);
         model.addAttribute("SessionName", Sessionfullname); // to display the fullname at the detailed page and used also to messagesending to save it.
+        Iterable<House> suggestedAds = houseRepository.findByStateAndType(stateSession,aptType);
+        model.addAttribute("suggestedList", suggestedAds);
         return "detailed";
     }
         /*The message on the detailed service*/

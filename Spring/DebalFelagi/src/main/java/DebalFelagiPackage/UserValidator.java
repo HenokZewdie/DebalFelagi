@@ -10,6 +10,7 @@ import org.springframework.validation.Validator;
 public class UserValidator implements Validator {
     @Autowired
     UserRepository userRepository;
+
     public boolean supports(Class<?> clazz){
         return User.class.isAssignableFrom(clazz);
     }

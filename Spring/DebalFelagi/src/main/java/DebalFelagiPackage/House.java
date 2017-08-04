@@ -31,6 +31,7 @@ public class House {
     private String detailphoto;
     private double price;
     private long phone;
+    @Lob
     private String remark;
     @Temporal (TemporalType.DATE)
     private Date date;

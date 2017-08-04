@@ -4,6 +4,8 @@
           xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
 <head th:replace="base::Mena">
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Spring Security Example</title>
 
 </head>
@@ -14,12 +16,9 @@
         <div class="container">
             <br /><br /><br />
             <h4 style="font-family: 'Sansation'; font-size: 24px; color: #006699"> Registrer Here</h4>
-            <form action="#" th:action="@{/houseregister}" enctype="multipart/form-data" th:object="${house}" method="post">
-
-                <div class="col-xs-4">
-                    <label for="street" style="font-family: 'Sansation'; font-size: 16px; color: #006699">Street Address</label>
-                    <input type="text" th:field="*{street}" class="form-control" id="street" placeholder="Street address" />
-                </div>
+            <form autocomplete="on" action="#"  th:action="@{/houseregister}" enctype="multipart/form-data" th:object="${house}" method="post">
+                    <span th:if="${#fields.hasErrors('street')}" th:errors="*{street}">street Error</span>
+                    <input type="text" name= "street" th:field="*{street}" class="form-control" id="street" placeholder="Street address" />
                 <div class="col-xs-4">
                     <label for="city" style="font-family: 'Sansation'; font-size: 16px; color: #006699">City</label>
                     <input type="text" th:field="*{city}" class="form-control" id="city" placeholder="City" />
